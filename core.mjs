@@ -1,16 +1,24 @@
-export const phases=['research','design','mockup','video','review'];
+export const PRODUCTS=['Mug','Tumbler','T-shirt','Hoodie','Tote bag','Canvas print','Blanket','Pillow','Ornament','Phone case','Poster'];
+export const PLATFORMS=['TikTok','Instagram Reels','Facebook','YouTube Shorts'];
 export function jsonObject(text){
   const clean=text.trim().replace(/^```(?:json)?\s*/,'').replace(/\s*```$/,'');
   const value=JSON.parse(clean); if(!value||typeof value!=='object'||Array.isArray(value))throw Error('Expected JSON object from MA');return value;
 }
-export function validateBrief(b){
-  if(!b||!['Mug','T-shirt'].includes(b.product)||!['TikTok','Facebook'].includes(b.platform))throw Error('Invalid product or platform');
-  for(const k of ['name','audience','brief'])if(typeof b[k]!=='string'||!b[k].trim()||b[k].length>4000)throw Error('Missing or oversized '+k);
-  return {name:b.name.trim(),product:b.product,platform:b.platform,audience:b.audience.trim(),brief:b.brief.trim()};
+// The customer's own shop, as a bare domain such as macorner.co. Empty when not given.
+export function storeOf(value){
+  if(value===undefined||value===null||value==='')return '';
+  if(typeof value!=='string'||value.length>200)throw Error('Invalid store');
+  let host;try{host=new URL(/^https?:\/\//i.test(value.trim())?value.trim():'https://'+value.trim()).hostname.toLowerCase().replace(/^www\./,'');}catch{throw Error('Enter your store as a domain, such as yourstore.com');}
+  if(!/^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$/.test(host))throw Error('Enter your store as a domain, such as yourstore.com');
+  return host;
 }
-export function canRun(job,phase){const i=phases.indexOf(phase);return i>=0&&!job.busy&&(i===0||job.steps[phases[i-1]]?.status==='done');}
-export function validatePlan(p){if(!Array.isArray(p.concepts)||p.concepts.length!==2)throw Error('MA must return two concepts');for(const c of p.concepts)for(const k of ['title','print_prompt','mockup_prompt','video_prompt'])if(typeof c[k]!=='string'||!c[k].trim())throw Error('Missing concept '+k);return {...p,research:(p.research||[]).map(r=>({...r,model_confidence:r.confidence,confidence:'Source-reported / not independently verified'}))};}
-export function validateReview(r){if(!Number.isFinite(r.score)||r.score<0||r.score>5||!Array.isArray(r.checks)||r.checks.some(c=>!['pass','fail','unverified'].includes(c.status)))throw Error('Invalid MA review');return {...r,verdict:(r.quality_gate?r.quality_gate==='blocked':r.checks.some(c=>c.status==='fail'))?'revise':'review_required'};}
+export function validateBrief(b){
+  if(!b||!PRODUCTS.includes(b.product)||!PLATFORMS.includes(b.platform))throw Error('Invalid product or platform');
+  for(const k of ['name','brief'])if(typeof b[k]!=='string'||!b[k].trim()||b[k].length>4000)throw Error('Missing or oversized '+k);
+  // The brief itself names the market and buyer; this field is only an optional hint.
+  const audience=b.audience??'';if(typeof audience!=='string'||audience.length>400)throw Error('Oversized audience');
+  return {name:b.name.trim().slice(0,100),product:b.product,platform:b.platform,audience:audience.trim(),brief:b.brief.trim(),...(storeOf(b.store)?{store:storeOf(b.store)}:{})};
+}
 export function turnResult(events,messageId){
   const start=events.findIndex(e=>e.id===messageId);if(start<0)return null;
   let text=null;
