@@ -1,0 +1,3387 @@
+{
+ "id": "00000000-0000-4000-8000-000000000000",
+ "brief": {
+  "name": "Botanical name mug · best-friend gift",
+  "product": "Mug",
+  "platform": "TikTok",
+  "audience": "",
+  "brief": "Create an original personalized ceramic mug as a Christmas gift for a close friend. Target buyers are women aged 25-44 in the United States who love plants and calm, modern homes. The print shows the exact name ALEX with a botanical motif in blue. Deliver isolated flat print artwork on a plain white canvas, a lifestyle mockup with the print facing the camera, and a 5-second vertical product video with soft background sound. Keep the artwork and the ALEX lettering readable and consistent across all assets. No extra text, trademarks, invented claims or customer testimonials.",
+  "store": "macorner.co"
+ },
+ "limits": {
+  "max_rounds": 2,
+  "target_score": 4.5,
+  "watermark": false,
+  "generate_audio": true,
+  "language": "vi",
+  "design_count": 5,
+  "select_max": 3
+ },
+ "mode": "ma_cloud",
+ "stage": "done",
+ "busy": false,
+ "cloud": {
+  "explore": {
+   "started": "2026-09-30T02:05:02Z",
+   "activity": [
+    {
+     "at": "2026-09-30T02:05:02Z",
+     "kind": "calendar",
+     "text": "Checking upcoming US gifting occasions",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:05:06Z",
+     "kind": "search",
+     "text": "Searching: personalized mug gift for best friend Christmas",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:05:17Z",
+     "kind": "read",
+     "text": "Reading amazon.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:05:31Z",
+     "kind": "search",
+     "text": "Searching: Amazon best sellers novelty coffee mugs",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:05:42Z",
+     "kind": "read",
+     "text": "Reading amazon.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:05:56Z",
+     "kind": "search",
+     "text": "Searching: personalized birth flower name mug best friend gift",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:06:07Z",
+     "kind": "read",
+     "text": "Reading amazon.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:06:21Z",
+     "kind": "search",
+     "text": "Searching: Etsy personalized best friends mug",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:06:32Z",
+     "kind": "read",
+     "text": "Reading ads.tiktok.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:06:46Z",
+     "kind": "search",
+     "text": "Searching: NRF holiday survey 2025 gifts",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:06:57Z",
+     "kind": "read",
+     "text": "Reading nrf.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:07:11Z",
+     "kind": "search",
+     "text": "Searching: print on demand holiday order deadlines 2026",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:07:22Z",
+     "kind": "read",
+     "text": "Reading printify.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:07:36Z",
+     "kind": "search",
+     "text": "Searching: print on demand products mugs 2026",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:07:47Z",
+     "kind": "read",
+     "text": "Reading shopify.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:08:01Z",
+     "kind": "search",
+     "text": "Searching: print file DPI for mugs",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:08:12Z",
+     "kind": "read",
+     "text": "Reading printful.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:08:26Z",
+     "kind": "store",
+     "text": "Reading the public catalog of wanderprints.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:08:39Z",
+     "kind": "store",
+     "text": "Reading the public catalog of pawfecthouse.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:08:52Z",
+     "kind": "store",
+     "text": "Reading the public catalog of trendingcustom.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:09:05Z",
+     "kind": "store",
+     "text": "Reading the public catalog of westandwillow.com",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:09:18Z",
+     "kind": "contract",
+     "text": "Auditing and freezing the acceptance criteria",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:09:32Z",
+     "kind": "contract",
+     "text": "An independent auditor found a requirement the criteria missed; the agent is adding it",
+     "tone": "warn"
+    },
+    {
+     "at": "2026-09-30T02:09:34Z",
+     "kind": "contract",
+     "text": "Auditing and freezing the acceptance criteria",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:10:13Z",
+     "kind": "design",
+     "text": "Design 1: artwork generated",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:10:39Z",
+     "kind": "design",
+     "text": "Design 2: artwork generated",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:11:05Z",
+     "kind": "design",
+     "text": "Design 3: artwork generated",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:11:31Z",
+     "kind": "design",
+     "text": "Design 4: artwork generated",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:11:57Z",
+     "kind": "design",
+     "text": "Design 5: artwork generated",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:12:17Z",
+     "kind": "screening",
+     "text": "An independent reviewer ranked the designs",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:12:19Z",
+     "kind": "export",
+     "text": "Packaging the results",
+     "tone": "info"
+    }
+   ],
+   "preview": [
+    {
+     "id": "v1",
+     "title": "Nhánh lá thanh mảnh",
+     "style": "Botanical line art",
+     "rounds": {
+      "1": {
+       "design": "/sample/media/design-v1.jpg"
+      }
+     }
+    },
+    {
+     "id": "v2",
+     "title": "Chữ lớn ôm thân cốc",
+     "style": "Oversized wrap lettering",
+     "rounds": {
+      "1": {
+       "design": "/sample/media/design-v2.png"
+      }
+     }
+    },
+    {
+     "id": "v3",
+     "title": "Vòng lá màu nước",
+     "style": "Soft watercolour",
+     "rounds": {
+      "1": {
+       "design": "/sample/media/design-v3.png"
+      }
+     }
+    },
+    {
+     "id": "v4",
+     "title": "Huy hiệu hoài niệm",
+     "style": "Retro badge",
+     "rounds": {
+      "1": {
+       "design": "/sample/media/design-v4.png"
+      }
+     }
+    },
+    {
+     "id": "v5",
+     "title": "Chữ lồng tối giản",
+     "style": "Minimal monogram",
+     "rounds": {
+      "1": {
+       "design": "/sample/media/design-v5.png"
+      }
+     }
+    }
+   ],
+   "finished": "2026-09-30T02:12:35Z"
+  },
+  "event_count": 132,
+  "last_event": "session.status_idle",
+  "progress": {
+   "status": "completed",
+   "phase": "production",
+   "round": 2,
+   "variants": [
+    {
+     "id": "v1",
+     "status": "completed",
+     "round": 1,
+     "score": 4.9
+    },
+    {
+     "id": "v3",
+     "status": "max_rounds",
+     "round": 2,
+     "score": 4.6
+    },
+    {
+     "id": "v2",
+     "status": "completed",
+     "round": 2,
+     "score": 4.7
+    }
+   ]
+  },
+  "produce": {
+   "started": "2026-09-30T02:18:37Z",
+   "activity": [
+    {
+     "at": "2026-09-30T02:18:37Z",
+     "kind": "select",
+     "text": "Locking in the chosen designs",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:19:07Z",
+     "kind": "mockup",
+     "text": "Nhánh lá thanh mảnh: mockup ready",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:19:35Z",
+     "kind": "mockup",
+     "text": "Vòng lá màu nước: mockup ready",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:20:03Z",
+     "kind": "mockup",
+     "text": "Chữ lớn ôm thân cốc: mockup ready",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:20:10Z",
+     "kind": "video_submit",
+     "text": "Nhánh lá thanh mảnh: video requested",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:20:17Z",
+     "kind": "video_submit",
+     "text": "Vòng lá màu nước: video requested",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:20:24Z",
+     "kind": "video_submit",
+     "text": "Chữ lớn ôm thân cốc: video requested",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:23:23Z",
+     "kind": "video",
+     "text": "Nhánh lá thanh mảnh: video rendered",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:23:23Z",
+     "kind": "video",
+     "text": "Vòng lá màu nước: video rendered",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:23:23Z",
+     "kind": "video",
+     "text": "Chữ lớn ôm thân cốc: video rendered",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:23:53Z",
+     "kind": "evaluation",
+     "text": "Nhánh lá thanh mảnh: reviewer scored the assets",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:24:14Z",
+     "kind": "audit",
+     "text": "Nhánh lá thanh mảnh: auditor checked the review",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:24:14Z",
+     "kind": "review",
+     "text": "Nhánh lá thanh mảnh: accepted · score 4.90",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:24:44Z",
+     "kind": "evaluation",
+     "text": "Vòng lá màu nước: reviewer scored the assets",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:25:05Z",
+     "kind": "audit",
+     "text": "Vòng lá màu nước: auditor checked the review",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:25:05Z",
+     "kind": "review",
+     "text": "Vòng lá màu nước: needs another round · score 4.10",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:25:35Z",
+     "kind": "evaluation",
+     "text": "Chữ lớn ôm thân cốc: reviewer scored the assets",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:25:56Z",
+     "kind": "audit",
+     "text": "Chữ lớn ôm thân cốc: auditor checked the review",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:25:56Z",
+     "kind": "review",
+     "text": "Chữ lớn ôm thân cốc: needs another round · score 3.52",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:26:40Z",
+     "kind": "revise",
+     "text": "Rewriting prompts from reviewer feedback",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:27:14Z",
+     "kind": "mockup",
+     "text": "Chữ lớn ôm thân cốc (round 2): mockup ready",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:27:21Z",
+     "kind": "video_submit",
+     "text": "Vòng lá màu nước (round 2): video requested",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:27:28Z",
+     "kind": "video_submit",
+     "text": "Chữ lớn ôm thân cốc (round 2): video requested",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:29:42Z",
+     "kind": "video",
+     "text": "Vòng lá màu nước (round 2): video rendered",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:29:42Z",
+     "kind": "video",
+     "text": "Chữ lớn ôm thân cốc (round 2): video rendered",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:30:12Z",
+     "kind": "evaluation",
+     "text": "Vòng lá màu nước (round 2): reviewer scored the assets",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:30:32Z",
+     "kind": "audit",
+     "text": "Vòng lá màu nước (round 2): auditor checked the review",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:30:57Z",
+     "kind": "adjudication",
+     "text": "Vòng lá màu nước (round 2): a second reviewer settled the conflict",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:30:57Z",
+     "kind": "review",
+     "text": "Vòng lá màu nước (round 2): best version kept · score 4.60",
+     "tone": "info"
+    },
+    {
+     "at": "2026-09-30T02:31:27Z",
+     "kind": "evaluation",
+     "text": "Chữ lớn ôm thân cốc (round 2): reviewer scored the assets",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:31:48Z",
+     "kind": "audit",
+     "text": "Chữ lớn ôm thân cốc (round 2): auditor checked the review",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:31:48Z",
+     "kind": "review",
+     "text": "Chữ lớn ôm thân cốc (round 2): accepted · score 4.70",
+     "tone": "good"
+    },
+    {
+     "at": "2026-09-30T02:32:32Z",
+     "kind": "export",
+     "text": "Packaging the results",
+     "tone": "info"
+    }
+   ],
+   "preview": [
+    {
+     "id": "v1",
+     "title": null,
+     "style": null,
+     "rounds": {
+      "1": {
+       "mockup": "/sample/media/mockup-v1-r1.jpg",
+       "video": "/sample/media/video-v1-r1.mp4"
+      }
+     }
+    },
+    {
+     "id": "v3",
+     "title": null,
+     "style": null,
+     "rounds": {
+      "1": {
+       "mockup": "/sample/media/mockup-v3-r1.jpg",
+       "video": "/sample/media/video-v3-r1.mp4"
+      },
+      "2": {
+       "video": "/sample/media/video-v3-r2.mp4"
+      }
+     }
+    },
+    {
+     "id": "v2",
+     "title": null,
+     "style": null,
+     "rounds": {
+      "1": {
+       "mockup": "/sample/media/mockup-v2-r1.jpg",
+       "video": "/sample/media/video-v2-r1.mp4"
+      },
+      "2": {
+       "mockup": "/sample/media/mockup-v2-r2.jpg",
+       "video": "/sample/media/video-v2-r2.mp4"
+      }
+     }
+    }
+   ],
+   "finished": "2026-09-30T02:32:48Z"
+  }
+ },
+ "session": "sample-session",
+ "explore": {
+  "execution": "ma_cloud_skill",
+  "schema": 3,
+  "evidence_contract": 3,
+  "status": "awaiting_selection",
+  "language": "vi",
+  "contract_hash": "a827b640ee533a8a994b724ebe9bec893c7167b547e6546ba55f399ab30976f8",
+  "max_rounds": 2,
+  "target_score": 4.5,
+  "generate_audio": true,
+  "watermark": false,
+  "design_count": 5,
+  "select_max": 3,
+  "stage": "designs",
+  "brief": "Create an original personalized ceramic mug as a Christmas gift for a close friend. Target buyers are women aged 25-44 in the United States who love plants and calm, modern homes. The print shows the exact name ALEX with a botanical motif in blue. Deliver isolated flat print artwork on a plain white canvas, a lifestyle mockup with the print facing the camera, and a 5-second vertical product video with soft background sound. Keep the artwork and the ALEX lettering readable and consistent across all assets. No extra text, trademarks, invented claims or customer testimonials.",
+  "insights": {
+   "market": "Hoa Kỳ",
+   "audience": "Phụ nữ 25–44 tuổi, yêu cây cỏ và không gian sống hiện đại, nhẹ nhàng",
+   "occasion": "Giáng sinh 2026",
+   "recipient": "Bạn thân",
+   "tone": "Ấm áp, tinh tế, tối giản",
+   "personalization": "Tên riêng in chính xác: ALEX"
+  },
+  "research": {
+   "summary": "Mùa quà Giáng sinh đã bắt đầu: còn 86 ngày và cả bốn cửa hàng đối thủ được khảo sát đang đăng sản phẩm mới theo chủ đề Giáng sinh (Trending Custom dùng từ “christmas” 61 lần trong 60 tiêu đề mới). Quà cho bạn thân là một ngách rõ ràng: cốc quà tặng bạn thân đứng #8 trong top cốc bán chạy trên Amazon với 4.519 đánh giá, và cốc “hoa tháng sinh + tên” cho bạn thân đã xuất hiện trên Amazon và Etsy nhưng chưa có mẫu nào dẫn đầu. Đối thủ trên Shopify chủ yếu bán sản phẩm in ảnh, nên một thiết kế chỉ có tên và hoạ tiết thực vật sẽ khác biệt; cốc chữ lồng kèm hộp quà trong top 30 Amazon cho thấy phong cách tối giản, sang trọng cũng bán tốt.",
+   "status": "complete",
+   "sources": [
+    {
+     "id": "s1",
+     "channel": "amazon",
+     "access": "fetched",
+     "title": "Amazon Best Sellers: Best Novelty Coffee Mugs",
+     "url": "https://www.amazon.com/Best-Sellers-Novelty-Coffee-Mugs/zgbs/kitchen/9302388011",
+     "finding": "Trong top 30 cốc bán chạy ngày 30/09/2026: cốc quà tặng bạn thân của Biching đứng #8 (4,8 sao, 4.519 đánh giá); hai cốc chữ lồng (monogram) kèm hộp quà của Collective Home ở #21 và #23; bốn cốc in tên hoặc ảnh theo yêu cầu (#15, #20, #29). Nhiều cốc bán chạy được đặt tên theo người nhận: bạn thân, đồng nghiệp, giáo viên.",
+     "metric": {
+      "label": "Thứ hạng cốc quà tặng bạn thân",
+      "value": "#8 trong Novelty Coffee Mugs"
+     },
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s2",
+     "channel": "amazon",
+     "access": "fetched",
+     "title": "Personalized Name & Birth Flower Coffee Mug – True Passion Styles",
+     "url": "https://www.amazon.com/Personalized-Name-Birth-Flower-Coffee/dp/B0GV8TRRQ5",
+     "finding": "Cốc “hoa tháng sinh + tên” nhắm đúng người nhận là bạn thân (“Best Friend, Bestie”) nhưng mới xếp #8.671 trong Novelty Coffee Mugs: chủ đề hoa kèm tên đã có người bán, nhưng chưa có mẫu nào dẫn đầu.",
+     "metric": {
+      "label": "Best Sellers Rank",
+      "value": "#8.671 trong Novelty Coffee Mugs"
+     },
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s3",
+     "channel": "amazon",
+     "access": "fetched",
+     "title": "Personalized Birth Flower Mug with Name & Text – Lara Laser Works",
+     "url": "https://www.amazon.com/Personalized-Flower-Colors-Custom-Sister/dp/B0C2Q4DHYD",
+     "finding": "Cốc hoa tháng sinh kèm tên với 11 màu tuỳ chọn, 4,6 sao từ 51 đánh giá; tiêu đề nhắm tới mẹ, chị em và phụ nữ nói chung.",
+     "metric": {
+      "label": "Đánh giá",
+      "value": "4,6 sao · 51 lượt"
+     },
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s4",
+     "channel": "etsy",
+     "access": "search_result",
+     "title": "Personalized Floral Best Friends Mug, Birth Month Flowers Friendship Besties Name Coffee Mug – Etsy",
+     "url": "https://www.etsy.com/listing/1821494384/personalized-floral-best-friends-mug",
+     "finding": "Kết quả tìm kiếm cho thấy trên Etsy có cốc hoa tháng sinh kèm tên dành riêng cho bạn thân, chữ tên viết tay đặt cạnh bó hoa. Etsy chặn đọc tự động nên chưa xem được số đánh giá.",
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s5",
+     "channel": "competitor_store",
+     "access": "helper",
+     "title": "Wander Prints – catalog sản phẩm",
+     "url": "https://wanderprints.com/collections/all",
+     "finding": "Cả 60 sản phẩm mới nhất đều cá nhân hoá; “photo” xuất hiện 22 lần và “christmas” 21 lần trong tiêu đề. Phong cách nét vẽ (line art) có trong sản phẩm mới: “Custom Photo Line Art Family Portrait” và áo len “Knit Line Art”. Ngày 29/09/2026 cửa hàng đăng quà tình bạn cho nữ.",
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s6",
+     "channel": "competitor_store",
+     "access": "helper",
+     "title": "Pawfect House – catalog và bộ sưu tập Best Sellers",
+     "url": "https://pawfecthouse.com/collections/best-sellers",
+     "finding": "Bộ sưu tập best-seller có bình hoa “A Garden Grown From Her Heart” tặng mẹ và bà: chủ đề vườn hoa gắn với người nhận là phụ nữ. Trong 60 tiêu đề mới nhất, “birthday” xuất hiện 51 lần và “christmas” 41 lần; ngày 29/09/2026 có đĩa trang sức tặng “Besties”.",
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s7",
+     "channel": "competitor_store",
+     "access": "helper",
+     "title": "Trending Custom – catalog sản phẩm",
+     "url": "https://trendingcustom.com/collections/all",
+     "finding": "Mùa Giáng sinh đã bắt đầu: “christmas” xuất hiện 61 lần trong 60 tiêu đề mới nhất, phần lớn là ornament đăng ngày 28–29/09/2026. Thẻ “besties” gắn trên 5 sản phẩm; best-seller nổi bật là đèn cầu pha lê in ngày đặc biệt.",
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s8",
+     "channel": "competitor_store",
+     "access": "helper",
+     "title": "West & Willow – bộ sưu tập Best Sellers",
+     "url": "https://westandwillow.com/collections/best-sellers",
+     "finding": "Cốc “Custom Pet Portrait Mug” nằm trong bộ sưu tập best-seller cạnh tranh chân dung thú cưng: cốc là sản phẩm phụ bán tốt khi đi kèm một chủ đề cá nhân rõ ràng.",
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s9",
+     "channel": "tiktok",
+     "access": "fetched",
+     "title": "Creative best practices for performance ads – TikTok Business Help Center",
+     "url": "https://ads.tiktok.com/help/article/creative-best-practices",
+     "finding": "TikTok khuyến nghị video dọc 9:16, độ phân giải tối thiểu 720p, có âm thanh hoặc nhạc; nêu thông điệp chính trong 3 giây đầu và đặt điểm thu hút trong 6 giây đầu.",
+     "metric": {
+      "label": "Thời điểm nêu thông điệp chính",
+      "value": "3 giây đầu"
+     },
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s10",
+     "channel": "trends",
+     "access": "fetched",
+     "title": "Consumers to Spend Second-Highest Amount on Record, According to NRF Holiday Survey (16/10/2025)",
+     "url": "https://nrf.com/media-center/press-releases/consumers-to-spend-second-highest-amount-on-record-according-to-nrf-holiday-survey",
+     "finding": "Khảo sát mùa lễ 2025 của NRF (8.247 người, 1–7/10/2025): 42% người mua sắm bắt đầu tìm và mua quà trước tháng 11. Đây là số liệu mùa 2025; chưa tìm thấy dự báo mùa 2026.",
+     "metric": {
+      "label": "Bắt đầu mua quà trước tháng 11",
+      "value": "42%"
+     },
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s11",
+     "channel": "trends",
+     "access": "fetched",
+     "title": "Printify holiday guide 2026",
+     "url": "https://printify.com/blog/holiday-guide/",
+     "finding": "Printify khuyên chuẩn bị tài liệu marketing trước tháng 11 và cho biết hạn chót đặt hàng dịp lễ thường được công bố vào giữa tháng 10. Cốc, đồ trang trí treo cây và chăn nằm trong nhóm quà dịp lễ được liệt kê.",
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s12",
+     "channel": "industry",
+     "access": "fetched",
+     "title": "25 Best Print-on-Demand Products to Sell in 2026 – Shopify (cập nhật 08/05/2026)",
+     "url": "https://www.shopify.com/blog/print-on-demand-products",
+     "finding": "Shopify mô tả cốc là món quà quen thuộc với nhu cầu tăng mạnh vào quý 4; thiết kế giới hạn hoặc chất liệu cao cấp giúp sản phẩm nổi bật.",
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s13",
+     "channel": "industry",
+     "access": "fetched",
+     "title": "How to prepare perfect print files for print-on-demand – Printful (28/07/2025)",
+     "url": "https://www.printful.com/blog/everything-you-need-to-know-to-prepare-the-perfect-printfile",
+     "finding": "Printful khuyến nghị 300 DPI cho sản phẩm nhỏ nhiều chi tiết như cốc, hệ màu sRGB và tệp PNG hoặc JPEG.",
+     "metric": {
+      "label": "Độ phân giải tệp in cho cốc",
+      "value": "300 DPI"
+     },
+     "retrieved": "2026-09-30"
+    },
+    {
+     "id": "s14",
+     "channel": "industry",
+     "access": "fetched",
+     "title": "Print-on-demand niches: 15 ideas for 2026 – Printify",
+     "url": "https://printify.com/blog/print-on-demand-niches/",
+     "finding": "Printify nhấn mạnh chọn ngách theo người mua: “A niche is who you sell it to and why they care.” Người mua muốn thấy tên, ngày tháng, thú cưng hoặc vai trò của mình trong thiết kế.",
+     "retrieved": "2026-09-30"
+    }
+   ],
+   "coverage": [
+    {
+     "channel": "amazon",
+     "status": "covered",
+     "note": "Đọc bảng xếp hạng cốc bán chạy và hai trang sản phẩm qua trình duyệt."
+    },
+    {
+     "channel": "etsy",
+     "status": "limited",
+     "note": "Etsy chặn đọc tự động; chỉ có kết quả tìm kiếm."
+    },
+    {
+     "channel": "competitor_store",
+     "status": "covered",
+     "note": "Đọc catalog công khai của 4 cửa hàng đối thủ; không tính cửa hàng của khách hàng."
+    },
+    {
+     "channel": "tiktok",
+     "status": "limited",
+     "note": "Có hướng dẫn chính thức của TikTok; dữ liệu video cần đăng nhập."
+    },
+    {
+     "channel": "trends",
+     "status": "covered",
+     "note": "Lịch dịp lễ của hệ thống, khảo sát NRF và hướng dẫn mùa lễ của Printify."
+    }
+   ],
+   "competitor_designs": [
+    {
+     "brand": "Biching (Amazon)",
+     "product": "Best Friend Birthday Gifts for Women, Friendship Gifts – Ceramic Mug",
+     "url": "https://www.amazon.com/Best-Friend-Birthday-Gifts-Friendship/dp/B085VYLRFQ",
+     "style_tags": [
+      "Quà bạn thân",
+      "Câu chữ tình bạn",
+      "Tặng nữ"
+     ],
+     "signal": "#8 Best Sellers · 4.519 đánh giá",
+     "why_it_works": "Tiêu đề gọi đúng người nhận (bạn thân, bestie, BFF) và dịp tặng, nên bán quanh năm chứ không chỉ mùa lễ. Không cá nhân hoá tên: đây là khoảng trống cho cốc in tên.",
+     "source_ids": [
+      "s1"
+     ]
+    },
+    {
+     "brand": "Collective Home (Amazon)",
+     "product": "Ceramic Coffee Mug, 15 oz Monogram Cup with Gift Box",
+     "url": "https://www.amazon.com/COLLECTIVE-HOME-Monogram-Personalized-Luxurious/dp/B0BZY59D7B",
+     "style_tags": [
+      "Chữ lồng",
+      "Hộp quà",
+      "Sang trọng"
+     ],
+     "signal": "#21 Best Sellers · 899 đánh giá",
+     "why_it_works": "Chỉ một chữ cái đầu mạ vàng, rất tối giản, bán kèm hộp quà: người mua trả tiền cho cảm giác quà tặng cao cấp.",
+     "source_ids": [
+      "s1"
+     ]
+    },
+    {
+     "brand": "True Passion Styles (Amazon)",
+     "product": "Personalized Name & Birth Flower Coffee Mug",
+     "url": "https://www.amazon.com/Personalized-Name-Birth-Flower-Coffee/dp/B0GV8TRRQ5",
+     "style_tags": [
+      "Hoa tháng sinh",
+      "Tên riêng",
+      "Bạn thân"
+     ],
+     "signal": "#8.671 Best Sellers",
+     "why_it_works": "Kết hợp hoa và tên đúng như brief, nhưng xếp hạng thấp: chủ đề có nhu cầu nhưng chưa có thiết kế nổi bật, là cơ hội để làm tốt hơn.",
+     "source_ids": [
+      "s2"
+     ]
+    },
+    {
+     "brand": "Etsy",
+     "product": "Personalized Floral Best Friends Mug, Birth Month Flowers",
+     "url": "https://www.etsy.com/listing/1821494384/personalized-floral-best-friends-mug",
+     "style_tags": [
+      "Hoa tháng sinh",
+      "Chữ viết tay",
+      "Bạn thân"
+     ],
+     "signal": "Kết quả tìm kiếm",
+     "why_it_works": "Bó hoa kèm tên viết tay dành riêng cho bạn thân; cho thấy người bán thủ công trên Etsy đã khai thác ngách này.",
+     "source_ids": [
+      "s4"
+     ]
+    },
+    {
+     "brand": "Pawfect House",
+     "product": "Custom Flower Vase With Ribbon – A Garden Grown From Her Heart",
+     "url": "https://pawfecthouse.com/products/custom-flower-vase-with-ribbon-personalized-mothers-day-birthday-gifts-for-mom-grandma-a-garden-grown-from-her-heart",
+     "style_tags": [
+      "Vườn hoa",
+      "Tặng phụ nữ",
+      "Cá nhân hoá"
+     ],
+     "signal": "Trong bộ sưu tập Best Sellers",
+     "why_it_works": "Chủ đề vườn hoa gắn với người nhận là phụ nữ được cửa hàng xếp vào nhóm bán chạy; hoạ tiết thực vật hợp với nhóm khách này.",
+     "source_ids": [
+      "s6"
+     ]
+    },
+    {
+     "brand": "Wander Prints",
+     "product": "Friendship Gift For Woman, Best Friend, Bestie, BFF – Stained Glass Christmas Tree",
+     "url": "https://wanderprints.com/products/friendship-gift-for-woman-best-friend-bestie-bff-personalized-custom-photo-semi-realistic-portrait-it-takes-a-long-time-stained-glass-christmas-tree-hn037hal4249",
+     "style_tags": [
+      "Quà tình bạn",
+      "Chân dung từ ảnh",
+      "Giáng sinh"
+     ],
+     "signal": "Mới đăng 29/09/2026",
+     "why_it_works": "Nhắm thẳng vào nữ tặng bạn thân dịp Giáng sinh nhưng dùng ảnh cá nhân; thiết kế chỉ có tên sẽ dễ đặt mua và khác biệt.",
+     "source_ids": [
+      "s5"
+     ]
+    }
+   ],
+   "seasonal_focus": [
+    {
+     "occasion": "Giáng sinh (25/12/2026)",
+     "calendar_id": "christmas",
+     "why": "Dịp tặng quà chính của brief; đối thủ đã đăng sản phẩm Giáng sinh từ cuối tháng 9. Theo lịch nên đăng bán trước 30/10; hạn đặt hàng ước tính 11/12 cần xác nhận lại với nhà in.",
+     "source_ids": [
+      "s11",
+      "s7"
+     ]
+    },
+    {
+     "occasion": "Black Friday – Cyber Monday (27–30/11/2026)",
+     "calendar_id": "black_friday",
+     "why": "42% người mua bắt đầu mua quà trước tháng 11; tài liệu quảng cáo cần sẵn sàng trước tháng 11.",
+     "source_ids": [
+      "s11",
+      "s10"
+     ]
+    },
+    {
+     "occasion": "Galentine's Day (13/02/2027)",
+     "calendar_id": "galentines",
+     "why": "Dịp tặng quà cho bạn thân nữ ngay sau mùa lễ; có thể dùng lại thiết kế tên riêng.",
+     "source_ids": [],
+     "basis": "hypothesis"
+    }
+   ],
+   "keywords": [
+    {
+     "term": "best friend / bestie / BFF",
+     "note": "Có trong tiêu đề cốc #8 trên Amazon và quà tình bạn mới của Wander Prints.",
+     "source_ids": [
+      "s1",
+      "s5"
+     ]
+    },
+    {
+     "term": "birth flower",
+     "note": "Cốc hoa tháng sinh kèm tên trên Amazon và Etsy.",
+     "source_ids": [
+      "s2",
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "term": "monogram",
+     "note": "Hai cốc chữ lồng kèm hộp quà trong top 30 Amazon.",
+     "source_ids": [
+      "s1"
+     ]
+    },
+    {
+     "term": "line art",
+     "note": "Có trong tiêu đề sản phẩm mới của Wander Prints.",
+     "source_ids": [
+      "s5"
+     ]
+    },
+    {
+     "term": "christmas",
+     "note": "21–61 lần trong 60 tiêu đề mới của mỗi cửa hàng đối thủ.",
+     "source_ids": [
+      "s5",
+      "s6",
+      "s7"
+     ]
+    }
+   ],
+   "opportunities": [
+    {
+     "title": "Nét lá mảnh, tên làm trung tâm",
+     "insight": "Đối thủ trên Shopify chủ yếu in ảnh; nét vẽ (line art) đang xuất hiện trong sản phẩm mới, và chủ đề hoa lá bán tốt với khách nữ.",
+     "design_direction": "Nét vẽ mảnh màu xanh dương, chữ serif lớn, nhiều khoảng trắng",
+     "source_ids": [
+      "s5",
+      "s6"
+     ]
+    },
+    {
+     "title": "Hoa lá mềm mại quanh tên",
+     "insight": "Cốc hoa kèm tên cho bạn thân đã có trên Amazon và Etsy nhưng chưa có mẫu dẫn đầu.",
+     "design_direction": "Vòng lá màu nước ôm quanh tên",
+     "source_ids": [
+      "s2",
+      "s4"
+     ]
+    },
+    {
+     "title": "Chữ lớn, đọc được trong video",
+     "insight": "TikTok khuyên nêu thông điệp trong 3 giây đầu, nên tên phải đọc được ngay trên video dọc.",
+     "design_direction": "Chữ in hoa cỡ lớn, tương phản cao",
+     "source_ids": [
+      "s9"
+     ]
+    },
+    {
+     "title": "Chữ lồng sang trọng",
+     "insight": "Cốc chữ lồng kèm hộp quà có hai mẫu trong top 30 cốc bán chạy trên Amazon.",
+     "design_direction": "Tên đặt trong vòng tròn mảnh, phong cách chữ lồng",
+     "source_ids": [
+      "s1"
+     ]
+    },
+    {
+     "title": "Huy hiệu vui tươi",
+     "insight": "Hướng táo bạo hơn để thử nghiệm với khách thích phong cách hoài niệm; chưa có dữ liệu xác nhận.",
+     "design_direction": "Huy hiệu tròn với tên trên dải băng",
+     "source_ids": [],
+     "basis": "hypothesis"
+    }
+   ],
+   "coverage_summary": {
+    "sources": 14,
+    "channels": 6,
+    "by_channel": {
+     "amazon": 3,
+     "etsy": 1,
+     "competitor_store": 4,
+     "tiktok": 1,
+     "trends": 2,
+     "industry": 3
+    },
+    "status": "complete"
+   },
+   "seasonal_calendar": [
+    {
+     "id": "bosses_day",
+     "name": "Boss's Day",
+     "kind": "occasion",
+     "date": "2026-10-16",
+     "days_until": 16,
+     "gift_intensity": "medium",
+     "audiences": "managers, from teams",
+     "listing_live_by": "2026-09-18",
+     "ads_start_by": "2026-10-02",
+     "order_cutoff_estimate": "2026-10-02",
+     "window": "launch_now"
+    },
+    {
+     "id": "halloween",
+     "name": "Halloween",
+     "kind": "occasion",
+     "date": "2026-10-31",
+     "days_until": 31,
+     "gift_intensity": "high",
+     "audiences": "families, pet owners, party hosts",
+     "listing_live_by": "2026-09-19",
+     "ads_start_by": "2026-10-10",
+     "order_cutoff_estimate": "2026-10-17",
+     "window": "launch_now"
+    },
+    {
+     "id": "veterans_day",
+     "name": "Veterans Day",
+     "kind": "occasion",
+     "date": "2026-11-11",
+     "days_until": 42,
+     "gift_intensity": "medium",
+     "audiences": "veterans and military families",
+     "listing_live_by": "2026-10-14",
+     "ads_start_by": "2026-10-28",
+     "order_cutoff_estimate": "2026-10-28",
+     "window": "plan"
+    },
+    {
+     "id": "thanksgiving",
+     "name": "Thanksgiving",
+     "kind": "occasion",
+     "date": "2026-11-26",
+     "days_until": 57,
+     "gift_intensity": "high",
+     "audiences": "hosts, families",
+     "listing_live_by": "2026-10-15",
+     "ads_start_by": "2026-11-05",
+     "order_cutoff_estimate": "2026-11-12",
+     "window": "plan"
+    },
+    {
+     "id": "black_friday",
+     "name": "Black Friday",
+     "kind": "sale_event",
+     "date": "2026-11-27",
+     "days_until": 58,
+     "gift_intensity": "peak",
+     "audiences": "deal-driven gift shoppers",
+     "listing_live_by": "2026-10-02",
+     "ads_start_by": "2026-10-16",
+     "order_cutoff_estimate": null,
+     "window": "plan"
+    },
+    {
+     "id": "cyber_monday",
+     "name": "Cyber Monday",
+     "kind": "sale_event",
+     "date": "2026-11-30",
+     "days_until": 61,
+     "gift_intensity": "peak",
+     "audiences": "online gift shoppers",
+     "listing_live_by": "2026-10-05",
+     "ads_start_by": "2026-10-19",
+     "order_cutoff_estimate": null,
+     "window": "plan"
+    },
+    {
+     "id": "hanukkah",
+     "name": "Hanukkah (first night)",
+     "kind": "occasion",
+     "date": "2026-12-04",
+     "days_until": 65,
+     "gift_intensity": "high",
+     "audiences": "Jewish families",
+     "listing_live_by": "2026-10-23",
+     "ads_start_by": "2026-11-13",
+     "order_cutoff_estimate": "2026-11-20",
+     "window": "plan"
+    },
+    {
+     "id": "christmas",
+     "name": "Christmas",
+     "kind": "occasion",
+     "date": "2026-12-25",
+     "days_until": 86,
+     "gift_intensity": "peak",
+     "audiences": "families, couples, coworkers, pet owners",
+     "listing_live_by": "2026-10-30",
+     "ads_start_by": "2026-11-13",
+     "order_cutoff_estimate": "2026-12-11",
+     "window": "plan"
+    },
+    {
+     "id": "kwanzaa",
+     "name": "Kwanzaa",
+     "kind": "occasion",
+     "date": "2026-12-26",
+     "days_until": 87,
+     "gift_intensity": "medium",
+     "audiences": "families",
+     "listing_live_by": "2026-11-28",
+     "ads_start_by": "2026-12-12",
+     "order_cutoff_estimate": "2026-12-12",
+     "window": "plan"
+    },
+    {
+     "id": "new_year",
+     "name": "New Year's Day",
+     "kind": "occasion",
+     "date": "2027-01-01",
+     "days_until": 93,
+     "gift_intensity": "medium",
+     "audiences": "fresh starts, planners, family keepsakes",
+     "listing_live_by": "2026-12-04",
+     "ads_start_by": "2026-12-18",
+     "order_cutoff_estimate": "2026-12-18",
+     "window": "plan"
+    },
+    {
+     "id": "lunar_new_year",
+     "name": "Lunar New Year",
+     "kind": "occasion",
+     "date": "2027-02-06",
+     "days_until": 129,
+     "gift_intensity": "medium",
+     "audiences": "Asian American families",
+     "listing_live_by": "2027-01-09",
+     "ads_start_by": "2027-01-23",
+     "order_cutoff_estimate": "2027-01-23",
+     "window": "plan"
+    },
+    {
+     "id": "galentines",
+     "name": "Galentine's Day",
+     "kind": "occasion",
+     "date": "2027-02-13",
+     "days_until": 136,
+     "gift_intensity": "medium",
+     "audiences": "best friends, sisters",
+     "listing_live_by": "2027-01-16",
+     "ads_start_by": "2027-01-30",
+     "order_cutoff_estimate": "2027-01-30",
+     "window": "plan"
+    },
+    {
+     "id": "valentines",
+     "name": "Valentine's Day",
+     "kind": "occasion",
+     "date": "2027-02-14",
+     "days_until": 137,
+     "gift_intensity": "peak",
+     "audiences": "couples, spouses, long-distance partners",
+     "listing_live_by": "2026-12-20",
+     "ads_start_by": "2027-01-03",
+     "order_cutoff_estimate": "2027-01-31",
+     "window": "plan"
+    }
+   ]
+  },
+  "criteria": [
+   {
+    "id": "design_isolated",
+    "label": "Bản in phẳng, tách trên nền trắng",
+    "description": "Design is isolated flat print artwork on a plain white canvas with no product, hands, room or shadow",
+    "source_requirement": "Deliver isolated flat print artwork on a plain white canvas",
+    "required": true,
+    "priority": 1,
+    "weight": 10,
+    "asset_refs": [
+     "design"
+    ]
+   },
+   {
+    "id": "name_exact",
+    "label": "Chỉ có chữ ALEX, đúng chính tả",
+    "description": "The only text is the name ALEX, spelled exactly, with no extra words, letters or numbers",
+    "source_requirement": "The print shows the exact name ALEX. No extra text",
+    "required": true,
+    "priority": 1,
+    "weight": 15,
+    "asset_refs": [
+     "design",
+     "mockup",
+     "video"
+    ]
+   },
+   {
+    "id": "botanical_blue",
+    "label": "Hoạ tiết thực vật màu xanh dương",
+    "description": "A botanical motif in blue accompanies the name",
+    "source_requirement": "with a botanical motif in blue",
+    "required": true,
+    "priority": 2,
+    "weight": 10,
+    "asset_refs": [
+     "design"
+    ]
+   },
+   {
+    "id": "mockup_facing",
+    "label": "Mockup: bản in hướng về máy ảnh, nằm trọn trên cốc",
+    "description": "Lifestyle mockup shows a ceramic mug with the whole print facing the camera and fully inside the printable area",
+    "source_requirement": "a lifestyle mockup with the print facing the camera",
+    "required": true,
+    "priority": 2,
+    "weight": 15,
+    "asset_refs": [
+     "mockup"
+    ]
+   },
+   {
+    "id": "video_format",
+    "label": "Video dọc 5 giây, thấy rõ sản phẩm",
+    "description": "Video is a 5-second vertical product video in which the mug and its print are visible",
+    "source_requirement": "a 5-second vertical product video",
+    "required": true,
+    "priority": 2,
+    "weight": 10,
+    "asset_refs": [
+     "video"
+    ]
+   },
+   {
+    "id": "video_sound",
+    "label": "Video có âm thanh",
+    "description": "Video includes a sound track",
+    "source_requirement": "with soft background sound",
+    "required": true,
+    "priority": 3,
+    "weight": 5,
+    "asset_refs": [
+     "video"
+    ]
+   },
+   {
+    "id": "consistency",
+    "label": "Tên ALEX dễ đọc và nhất quán trên mọi tài sản",
+    "description": "Artwork and ALEX lettering stay readable and consistent across design, mockup and video",
+    "source_requirement": "Keep the artwork and the ALEX lettering readable and consistent across all assets",
+    "required": true,
+    "priority": 1,
+    "weight": 20,
+    "asset_refs": [
+     "design",
+     "mockup",
+     "video"
+    ]
+   },
+   {
+    "id": "no_claims",
+    "label": "Không nhãn hiệu, tuyên bố hay lời chứng thực",
+    "description": "No trademarks, invented claims or customer testimonials appear",
+    "source_requirement": "No extra text, trademarks, invented claims or customer testimonials",
+    "required": true,
+    "priority": 3,
+    "weight": 5,
+    "asset_refs": [
+     "design",
+     "mockup",
+     "video"
+    ]
+   },
+   {
+    "id": "mood",
+    "label": "Cảm giác ấm áp, nhẹ nhàng, hiện đại",
+    "description": "Overall look feels warm, calm and modern, suited to plant lovers",
+    "source_requirement": "women aged 25-44 who love plants and calm, modern homes",
+    "required": false,
+    "priority": 5,
+    "weight": 10,
+    "asset_refs": [
+     "design",
+     "mockup",
+     "video"
+    ]
+   }
+  ],
+  "contract_audit": {
+   "status": "completed",
+   "attempts": 2,
+   "report": {
+    "summary": "Bộ tiêu chí đã bao phủ mọi yêu cầu trong brief và các thiết lập của chiến dịch.",
+    "gaps": [],
+    "unsupported": []
+   },
+   "response_id": "resp-rehearsal-2"
+  },
+  "screening": {
+   "status": "completed",
+   "report": {
+    "summary": "Năm hướng thiết kế khác nhau rõ rệt. v1 và v3 bám sát brief nhất; v2 mạnh về độ dễ đọc nhưng cần kiểm soát kích thước; v5 có nguy cơ vi phạm yêu cầu chỉ in tên ALEX.",
+    "recommended": [
+     "v1",
+     "v3",
+     "v2"
+    ],
+    "ranking": [
+     {
+      "id": "v1",
+      "score": 4.8,
+      "text_check": "pass",
+      "strengths": "Tên ALEX rõ, nét lá mảnh cân đối, nhiều khoảng trắng nên dễ in.",
+      "risks": "Nét lá mảnh có thể mờ khi in ở cỡ nhỏ.",
+      "best_for": "Người thích phong cách tối giản, quà tặng thanh lịch."
+     },
+     {
+      "id": "v2",
+      "score": 4.3,
+      "text_check": "pass",
+      "strengths": "Chữ rất lớn, đọc được từ xa, hợp video dọc.",
+      "risks": "Nhánh lá chồng lên chữ L làm chữ khó tách; bố cục rộng dễ tràn khỏi vùng in.",
+      "best_for": "Người thích phong cách mạnh, hiện đại."
+     },
+     {
+      "id": "v3",
+      "score": 4.6,
+      "text_check": "pass",
+      "strengths": "Vòng lá màu nước mềm mại, tạo cảm giác ấm áp; tên đặt giữa rõ ràng.",
+      "risks": "Chữ mảnh, giãn rộng có thể khó đọc khi thu nhỏ hoặc khi video chuyển động.",
+      "best_for": "Người yêu cây cỏ, phong cách nhẹ nhàng."
+     },
+     {
+      "id": "v4",
+      "score": 4,
+      "text_check": "pass",
+      "strengths": "Tên nổi bật trên dải băng đậm, nhận diện nhanh.",
+      "risks": "Nhiều chi tiết trang trí, kém tinh tế so với tinh thần tối giản của brief.",
+      "best_for": "Người thích phong cách hoài niệm, vui tươi."
+     },
+     {
+      "id": "v5",
+      "score": 3.4,
+      "text_check": "fail",
+      "strengths": "Bố cục sang trọng, nhiều khoảng trắng.",
+      "risks": "Chữ A lớn là ký tự thêm ngoài tên ALEX, trái với yêu cầu không có chữ thừa.",
+      "best_for": "Quà tặng kiểu chữ lồng, nếu brief cho phép."
+     }
+    ]
+   },
+   "response_id": "resp-rehearsal-3",
+   "usage": null
+  },
+  "variants": [
+   {
+    "id": "v1",
+    "title": "Nhánh lá thanh mảnh",
+    "style": "Botanical line art",
+    "rationale": "Đối thủ trên Shopify chủ yếu in ảnh và câu chữ dài. Một nhánh lá nét mảnh bên cạnh tên ALEX tạo sự thanh lịch, dễ in và hợp người yêu không gian tối giản.",
+    "palette": [
+     "#0F4FA8",
+     "#FFFFFF"
+    ],
+    "typography": "Serif cổ điển, chữ in hoa",
+    "inspired_by": [
+     "s5",
+     "s6"
+    ],
+    "prompts": {
+     "design": "Isolated flat print artwork centred on a plain pure white canvas: a simple minimalist botanical sprig drawn in thin blue line art, next to the name \"ALEX\" in large classic serif capitals in the same blue. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+     "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: a thin blue botanical sprig beside the serif name \"ALEX\". No other objects with text.",
+     "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. Slow, smooth pan across the mug. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+    },
+    "design": {
+     "url": "/sample/media/design-v1.jpg",
+     "usage": null
+    }
+   },
+   {
+    "id": "v2",
+    "title": "Chữ lớn ôm thân cốc",
+    "style": "Oversized wrap lettering",
+    "rationale": "TikTok khuyên nêu thông điệp trong 3 giây đầu. Chữ in hoa cỡ lớn giúp tên đọc được ngay trên video dọc và tạo cá tính mạnh.",
+    "palette": [
+     "#0F4FA8"
+    ],
+    "typography": "Serif đậm, nén ngang",
+    "inspired_by": [
+     "s9"
+    ],
+    "prompts": {
+     "design": "Isolated flat print artwork on a plain pure white canvas: the name \"ALEX\" in very large, bold, condensed serif capitals in deep blue, with a blue line-art botanical sprig growing between the letters L and E. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+     "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: very large bold blue serif capitals \"ALEX\" with a botanical sprig. No other objects with text.",
+     "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. The mug turns slowly on the spot. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+    },
+    "design": {
+     "url": "/sample/media/design-v2.png",
+     "usage": null
+    }
+   },
+   {
+    "id": "v3",
+    "title": "Vòng lá màu nước",
+    "style": "Soft watercolour",
+    "rationale": "Cốc hoa kèm tên cho bạn thân đã có trên Amazon và Etsy nhưng chưa có mẫu dẫn đầu. Vòng lá màu nước ôm quanh tên mang cảm giác mềm mại, ấm áp cho món quà tặng bạn thân.",
+    "palette": [
+     "#123A7D",
+     "#3B74C4",
+     "#7FA8DE",
+     "#C9DCF5"
+    ],
+    "typography": "Didone mảnh, giãn chữ",
+    "inspired_by": [
+     "s2",
+     "s4"
+    ],
+    "prompts": {
+     "design": "Isolated flat print artwork on a plain pure white canvas: a loose wreath of watercolour leaves in soft shades of blue surrounding the name \"ALEX\" in elegant, widely spaced serif capitals in navy. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+     "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: a blue watercolour leaf wreath around the name \"ALEX\". No other objects with text.",
+     "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. The camera eases back slowly from the mug. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+    },
+    "design": {
+     "url": "/sample/media/design-v3.png",
+     "usage": null
+    }
+   },
+   {
+    "id": "v4",
+    "title": "Huy hiệu hoài niệm",
+    "style": "Retro badge",
+    "rationale": "Hướng táo bạo hơn để thử nghiệm, chưa có dữ liệu xác nhận. Huy hiệu tròn với tên trên dải băng mang không khí vui tươi, dễ nhận diện.",
+    "palette": [
+     "#123A7D",
+     "#0F4FA8",
+     "#C9DCF5"
+    ],
+    "typography": "Sans nén, nét đậm",
+    "inspired_by": [],
+    "prompts": {
+     "design": "Isolated flat print artwork on a plain pure white canvas: a round retro badge in navy and blue with a scalloped edge, pale sunburst rays and small botanical sprigs, and the name \"ALEX\" in bold condensed white capitals on a navy banner across the centre. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+     "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: a round blue retro badge with the name \"ALEX\" on a banner. No other objects with text.",
+     "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. Gentle push-in toward the badge. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+    },
+    "design": {
+     "url": "/sample/media/design-v4.png",
+     "usage": null
+    }
+   },
+   {
+    "id": "v5",
+    "title": "Chữ lồng tối giản",
+    "style": "Minimal monogram",
+    "rationale": "Hai cốc chữ lồng kèm hộp quà nằm trong top 30 cốc bán chạy trên Amazon. Chữ cái đầu cỡ lớn trong vòng tròn mảnh tạo cảm giác sang trọng, hợp quà tặng.",
+    "palette": [
+     "#123A7D",
+     "#0F4FA8",
+     "#7FA8DE"
+    ],
+    "typography": "Didone kết hợp sans giãn chữ",
+    "inspired_by": [
+     "s1"
+    ],
+    "prompts": {
+     "design": "Isolated flat print artwork on a plain pure white canvas: a thin blue double circle containing a large elegant serif initial in navy crossed by a small line-art botanical sprig, with the name \"ALEX\" in small widely spaced capitals below. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+     "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: a thin blue circle monogram with the name \"ALEX\" below. No other objects with text.",
+     "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. Slow push-in toward the monogram. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+    },
+    "design": {
+     "url": "/sample/media/design-v5.png",
+     "usage": null
+    }
+   }
+  ],
+  "error": null,
+  "warnings": []
+ },
+ "selection": [
+  "v1",
+  "v3",
+  "v2"
+ ],
+ "final": {
+  "status": "completed",
+  "met_target": true,
+  "winner": "v1",
+  "return_policy": "required_pass_then_score_or_early_pass",
+  "contract_hash": "a827b640ee533a8a994b724ebe9bec893c7167b547e6546ba55f399ab30976f8",
+  "variants": [
+   {
+    "id": "v1",
+    "title": "Nhánh lá thanh mảnh",
+    "style": "Botanical line art",
+    "rationale": "Đối thủ trên Shopify chủ yếu in ảnh và câu chữ dài. Một nhánh lá nét mảnh bên cạnh tên ALEX tạo sự thanh lịch, dễ in và hợp người yêu không gian tối giản.",
+    "palette": [
+     "#0F4FA8",
+     "#FFFFFF"
+    ],
+    "status": "completed",
+    "error": null,
+    "rounds": [
+     {
+      "number": 1,
+      "prompts": {
+       "design": "Isolated flat print artwork centred on a plain pure white canvas: a simple minimalist botanical sprig drawn in thin blue line art, next to the name \"ALEX\" in large classic serif capitals in the same blue. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+       "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: a thin blue botanical sprig beside the serif name \"ALEX\". No other objects with text.",
+       "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. Slow, smooth pan across the mug. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+      },
+      "design": {
+       "url": "/sample/media/design-v1.jpg",
+       "usage": null,
+       "reused": true
+      },
+      "mockup": {
+       "url": "/sample/media/mockup-v1-r1.jpg",
+       "usage": null
+      },
+      "video": {
+       "url": "/sample/media/video-v1-r1.mp4",
+       "task": "cgt-video-v1-r1",
+       "usage": null
+      },
+      "probe": {
+       "container": "mp4",
+       "bytes": 3192523,
+       "has_audio": true,
+       "audio_codec": "mp4a",
+       "video_codec": "avc1",
+       "duration_seconds": 5.041992,
+       "width": 720,
+       "height": 1280
+      },
+      "technical": [
+       {
+        "id": "tech_audio",
+        "name": "Sound matches the campaign setting",
+        "status": "pass",
+        "expected": "audio track",
+        "actual": "audio track present"
+       },
+       {
+        "id": "tech_duration",
+        "name": "Video runs about 5 seconds",
+        "status": "pass",
+        "expected": "5 seconds",
+        "actual": "5.041992 seconds"
+       },
+       {
+        "id": "tech_ratio",
+        "name": "Vertical 9:16 frame",
+        "status": "pass",
+        "expected": "9:16",
+        "actual": "720x1280"
+       }
+      ],
+      "evaluation": {
+       "report": {
+        "summary": "Bộ tài sản bám sát brief: tên ALEX chính xác, hoạ tiết lá xanh nhất quán, mockup và video rõ ràng. Tất cả tiêu chí đều đạt.",
+        "uncovered_requirements": [],
+        "release_checks": [
+         {
+          "name": "Quyền sử dụng hình ảnh và phông chữ",
+          "status": "unverified",
+          "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+         },
+         {
+          "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+          "status": "unverified",
+          "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+         },
+         {
+          "name": "Chính sách quảng cáo của nền tảng",
+          "status": "unverified",
+          "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+         }
+        ],
+        "checks": [
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Ảnh thiết kế chỉ gồm nhánh lá và chữ ALEX trên nền trắng trơn; không có sản phẩm, bàn tay hay bóng đổ.",
+          "improvement": "Khi xuất tệp in nên dùng nền trong suốt.",
+          "id": "design_isolated"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Trên cả ba tài sản chỉ có bốn chữ in hoa “ALEX”, đúng chính tả; không thấy chữ, số hay ký hiệu nào khác.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "name_exact"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Nhánh lá vẽ nét mảnh màu xanh dương đặt bên trái tên, cùng tông màu với chữ.",
+          "improvement": "Có thể tăng nhẹ độ dày nét để in sắc hơn trên gốm.",
+          "id": "botanical_blue"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Cốc gốm trắng đặt trên mặt bàn sáng, bản in quay thẳng về máy ảnh và nằm gọn giữa thân cốc.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "mockup_facing"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Video dọc dài khoảng 5 giây, máy quay lia chậm qua thân cốc. Ở giây đầu tên bị khuất một phần bên phải, sau đó hiện đầy đủ.",
+          "improvement": "Bắt đầu video khi cả tên đã nằm trong khung hình.",
+          "id": "video_format"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Thông số tệp do hệ thống đo cho thấy video có rãnh âm thanh (mp4a).",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "video_sound"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Kiểu chữ serif, màu xanh và nhánh lá giống nhau trên bản thiết kế, mockup và video; tên đọc rõ ở cả ba.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "consistency"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "no_claims"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Nền kem sáng, ánh sáng tự nhiên và hoạ tiết lá tạo cảm giác nhẹ nhàng, hiện đại.",
+          "improvement": "Thêm một chi tiết cây xanh mờ ở hậu cảnh để gần gũi hơn với người yêu cây.",
+          "id": "mood"
+         }
+        ]
+       },
+       "response_id": "resp-rehearsal-4",
+       "usage": null
+      },
+      "audit": {
+       "report": {
+        "conflicts": [],
+        "uncovered_requirements": []
+       },
+       "response_id": "resp-rehearsal-5",
+       "usage": null
+      },
+      "evidence": {
+       "response_id": "resp-rehearsal-4",
+       "source": "independent_evaluator"
+      },
+      "review": {
+       "checks": [
+        {
+         "id": "design_isolated",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Ảnh thiết kế chỉ gồm nhánh lá và chữ ALEX trên nền trắng trơn; không có sản phẩm, bàn tay hay bóng đổ.",
+         "improvement": "Khi xuất tệp in nên dùng nền trong suốt.",
+         "name": "Design is isolated flat print artwork on a plain white canvas with no product, hands, room or shadow",
+         "label": "Bản in phẳng, tách trên nền trắng",
+         "required": true,
+         "priority": 1,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "name_exact",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Trên cả ba tài sản chỉ có bốn chữ in hoa “ALEX”, đúng chính tả; không thấy chữ, số hay ký hiệu nào khác.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "The only text is the name ALEX, spelled exactly, with no extra words, letters or numbers",
+         "label": "Chỉ có chữ ALEX, đúng chính tả",
+         "required": true,
+         "priority": 1,
+         "weight": 15,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "botanical_blue",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Nhánh lá vẽ nét mảnh màu xanh dương đặt bên trái tên, cùng tông màu với chữ.",
+         "improvement": "Có thể tăng nhẹ độ dày nét để in sắc hơn trên gốm.",
+         "name": "A botanical motif in blue accompanies the name",
+         "label": "Hoạ tiết thực vật màu xanh dương",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "mockup_facing",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Cốc gốm trắng đặt trên mặt bàn sáng, bản in quay thẳng về máy ảnh và nằm gọn giữa thân cốc.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Lifestyle mockup shows a ceramic mug with the whole print facing the camera and fully inside the printable area",
+         "label": "Mockup: bản in hướng về máy ảnh, nằm trọn trên cốc",
+         "required": true,
+         "priority": 2,
+         "weight": 15,
+         "asset_refs": [
+          "mockup"
+         ]
+        },
+        {
+         "id": "video_format",
+         "status": "pass",
+         "score": 4.5,
+         "evidence": "Video dọc dài khoảng 5 giây, máy quay lia chậm qua thân cốc. Ở giây đầu tên bị khuất một phần bên phải, sau đó hiện đầy đủ.",
+         "improvement": "Bắt đầu video khi cả tên đã nằm trong khung hình.",
+         "name": "Video is a 5-second vertical product video in which the mug and its print are visible",
+         "label": "Video dọc 5 giây, thấy rõ sản phẩm",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "video_sound",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Thông số tệp do hệ thống đo cho thấy video có rãnh âm thanh (mp4a).",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Video includes a sound track",
+         "label": "Video có âm thanh",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "consistency",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Kiểu chữ serif, màu xanh và nhánh lá giống nhau trên bản thiết kế, mockup và video; tên đọc rõ ở cả ba.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Artwork and ALEX lettering stay readable and consistent across design, mockup and video",
+         "label": "Tên ALEX dễ đọc và nhất quán trên mọi tài sản",
+         "required": true,
+         "priority": 1,
+         "weight": 20,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "no_claims",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "No trademarks, invented claims or customer testimonials appear",
+         "label": "Không nhãn hiệu, tuyên bố hay lời chứng thực",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "mood",
+         "status": "pass",
+         "score": 4.5,
+         "evidence": "Nền kem sáng, ánh sáng tự nhiên và hoạ tiết lá tạo cảm giác nhẹ nhàng, hiện đại.",
+         "improvement": "Thêm một chi tiết cây xanh mờ ở hậu cảnh để gần gũi hơn với người yêu cây.",
+         "name": "Overall look feels warm, calm and modern, suited to plant lovers",
+         "label": "Cảm giác ấm áp, nhẹ nhàng, hiện đại",
+         "required": false,
+         "priority": 5,
+         "weight": 10,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        }
+       ],
+       "score": 4.9,
+       "quality_gate": "passed",
+       "blocking_checks": [],
+       "uncovered_requirements": [],
+       "priority_fix": "Video dọc 5 giây, thấy rõ sản phẩm: Bắt đầu video khi cả tên đã nằm trong khung hình.",
+       "summary": "Bộ tài sản bám sát brief: tên ALEX chính xác, hoạ tiết lá xanh nhất quán, mockup và video rõ ràng. Tất cả tiêu chí đều đạt.",
+       "release_checks": [
+        {
+         "name": "Quyền sử dụng hình ảnh và phông chữ",
+         "status": "unverified",
+         "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+        },
+        {
+         "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+         "status": "unverified",
+         "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+        },
+        {
+         "name": "Chính sách quảng cáo của nền tảng",
+         "status": "unverified",
+         "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+        }
+       ],
+       "technical_checks": [
+        {
+         "id": "tech_audio",
+         "name": "Sound matches the campaign setting",
+         "status": "pass",
+         "expected": "audio track",
+         "actual": "audio track present"
+        },
+        {
+         "id": "tech_duration",
+         "name": "Video runs about 5 seconds",
+         "status": "pass",
+         "expected": "5 seconds",
+         "actual": "5.041992 seconds"
+        },
+        {
+         "id": "tech_ratio",
+         "name": "Vertical 9:16 frame",
+         "status": "pass",
+         "expected": "9:16",
+         "actual": "720x1280"
+        }
+       ],
+       "review_source": "independent_evaluator",
+       "conflicts": []
+      }
+     }
+    ],
+    "best_round": 1
+   },
+   {
+    "id": "v3",
+    "title": "Vòng lá màu nước",
+    "style": "Soft watercolour",
+    "rationale": "Cốc hoa kèm tên cho bạn thân đã có trên Amazon và Etsy nhưng chưa có mẫu dẫn đầu. Vòng lá màu nước ôm quanh tên mang cảm giác mềm mại, ấm áp cho món quà tặng bạn thân.",
+    "palette": [
+     "#123A7D",
+     "#3B74C4",
+     "#7FA8DE",
+     "#C9DCF5"
+    ],
+    "status": "max_rounds",
+    "error": null,
+    "rounds": [
+     {
+      "number": 1,
+      "prompts": {
+       "design": "Isolated flat print artwork on a plain pure white canvas: a loose wreath of watercolour leaves in soft shades of blue surrounding the name \"ALEX\" in elegant, widely spaced serif capitals in navy. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+       "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: a blue watercolour leaf wreath around the name \"ALEX\". No other objects with text.",
+       "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. The camera eases back slowly from the mug. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+      },
+      "design": {
+       "url": "/sample/media/design-v3.png",
+       "usage": null,
+       "reused": true
+      },
+      "mockup": {
+       "url": "/sample/media/mockup-v3-r1.jpg",
+       "usage": null
+      },
+      "video": {
+       "url": "/sample/media/video-v3-r1.mp4",
+       "task": "cgt-video-v3-r1",
+       "usage": null
+      },
+      "probe": {
+       "container": "mp4",
+       "bytes": 827357,
+       "has_audio": false,
+       "audio_codec": null,
+       "video_codec": "avc1",
+       "duration_seconds": 5.066667,
+       "width": 720,
+       "height": 1280
+      },
+      "technical": [
+       {
+        "id": "tech_audio",
+        "name": "Sound matches the campaign setting",
+        "status": "fail",
+        "expected": "audio track",
+        "actual": "no audio track"
+       },
+       {
+        "id": "tech_duration",
+        "name": "Video runs about 5 seconds",
+        "status": "pass",
+        "expected": "5 seconds",
+        "actual": "5.066667 seconds"
+       },
+       {
+        "id": "tech_ratio",
+        "name": "Vertical 9:16 frame",
+        "status": "pass",
+        "expected": "9:16",
+        "actual": "720x1280"
+       }
+      ],
+      "evaluation": {
+       "report": {
+        "summary": "Thiết kế và mockup đạt yêu cầu, nhưng video thiếu âm thanh và tên khó đọc khi chuyển động.",
+        "uncovered_requirements": [],
+        "release_checks": [
+         {
+          "name": "Quyền sử dụng hình ảnh và phông chữ",
+          "status": "unverified",
+          "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+         },
+         {
+          "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+          "status": "unverified",
+          "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+         },
+         {
+          "name": "Chính sách quảng cáo của nền tảng",
+          "status": "unverified",
+          "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+         }
+        ],
+        "checks": [
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Vòng lá màu nước và chữ ALEX nằm trên nền trắng trơn, không có sản phẩm hay bóng đổ.",
+          "improvement": "Khi xuất tệp in nên dùng nền trong suốt.",
+          "id": "design_isolated"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Chỉ có chữ “ALEX” ở giữa vòng lá; gạch mảnh bên dưới là nét trang trí, không phải ký tự.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "name_exact"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Vòng lá gồm nhiều sắc xanh dương từ nhạt đến đậm; lá được gợi tả bằng mảng màu nước nên ít chi tiết.",
+          "improvement": "Thêm vài gân lá để hoạ tiết thực vật rõ hơn.",
+          "id": "botanical_blue"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Bản in nằm giữa mặt trước của cốc, quay về máy ảnh và không chạm mép.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "mockup_facing"
+         },
+         {
+          "status": "pass",
+          "score": 4,
+          "evidence": "Video dọc khoảng 5 giây, máy quay lùi chậm; cốc luôn trong khung hình nhưng bản in nhỏ dần.",
+          "improvement": "Dùng chuyển động tiến gần để bản in lớn dần.",
+          "id": "video_format"
+         },
+         {
+          "status": "fail",
+          "score": 0,
+          "evidence": "Thông số tệp do hệ thống đo cho thấy video không có rãnh âm thanh.",
+          "improvement": "Tạo lại video với âm thanh nền.",
+          "id": "video_sound"
+         },
+         {
+          "status": "fail",
+          "score": 2.5,
+          "evidence": "Trên mockup tên đọc được, nhưng trong video nét chữ mảnh và giãn rộng khiến “ALEX” mờ, khó đọc khi cốc ở xa.",
+          "improvement": "Đưa máy quay lại gần hơn hoặc tăng độ đậm của chữ trong bản in.",
+          "id": "consistency"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "no_claims"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Màu nước loang nhẹ và nền sáng tạo cảm giác êm dịu, hợp người yêu cây cỏ.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "mood"
+         }
+        ]
+       },
+       "response_id": "resp-rehearsal-6",
+       "usage": null
+      },
+      "audit": {
+       "report": {
+        "conflicts": [],
+        "uncovered_requirements": []
+       },
+       "response_id": "resp-rehearsal-7",
+       "usage": null
+      },
+      "evidence": {
+       "response_id": "resp-rehearsal-6",
+       "source": "independent_evaluator"
+      },
+      "review": {
+       "checks": [
+        {
+         "id": "design_isolated",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Vòng lá màu nước và chữ ALEX nằm trên nền trắng trơn, không có sản phẩm hay bóng đổ.",
+         "improvement": "Khi xuất tệp in nên dùng nền trong suốt.",
+         "name": "Design is isolated flat print artwork on a plain white canvas with no product, hands, room or shadow",
+         "label": "Bản in phẳng, tách trên nền trắng",
+         "required": true,
+         "priority": 1,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "name_exact",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Chỉ có chữ “ALEX” ở giữa vòng lá; gạch mảnh bên dưới là nét trang trí, không phải ký tự.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "The only text is the name ALEX, spelled exactly, with no extra words, letters or numbers",
+         "label": "Chỉ có chữ ALEX, đúng chính tả",
+         "required": true,
+         "priority": 1,
+         "weight": 15,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "botanical_blue",
+         "status": "pass",
+         "score": 4.5,
+         "evidence": "Vòng lá gồm nhiều sắc xanh dương từ nhạt đến đậm; lá được gợi tả bằng mảng màu nước nên ít chi tiết.",
+         "improvement": "Thêm vài gân lá để hoạ tiết thực vật rõ hơn.",
+         "name": "A botanical motif in blue accompanies the name",
+         "label": "Hoạ tiết thực vật màu xanh dương",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "mockup_facing",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Bản in nằm giữa mặt trước của cốc, quay về máy ảnh và không chạm mép.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Lifestyle mockup shows a ceramic mug with the whole print facing the camera and fully inside the printable area",
+         "label": "Mockup: bản in hướng về máy ảnh, nằm trọn trên cốc",
+         "required": true,
+         "priority": 2,
+         "weight": 15,
+         "asset_refs": [
+          "mockup"
+         ]
+        },
+        {
+         "id": "video_format",
+         "status": "pass",
+         "score": 4,
+         "evidence": "Video dọc khoảng 5 giây, máy quay lùi chậm; cốc luôn trong khung hình nhưng bản in nhỏ dần.",
+         "improvement": "Dùng chuyển động tiến gần để bản in lớn dần.",
+         "name": "Video is a 5-second vertical product video in which the mug and its print are visible",
+         "label": "Video dọc 5 giây, thấy rõ sản phẩm",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "video_sound",
+         "status": "fail",
+         "score": 0,
+         "evidence": "Thông số tệp do hệ thống đo cho thấy video không có rãnh âm thanh.",
+         "improvement": "Tạo lại video với âm thanh nền.",
+         "name": "Video includes a sound track",
+         "label": "Video có âm thanh",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "consistency",
+         "status": "fail",
+         "score": 2.5,
+         "evidence": "Trên mockup tên đọc được, nhưng trong video nét chữ mảnh và giãn rộng khiến “ALEX” mờ, khó đọc khi cốc ở xa.",
+         "improvement": "Đưa máy quay lại gần hơn hoặc tăng độ đậm của chữ trong bản in.",
+         "name": "Artwork and ALEX lettering stay readable and consistent across design, mockup and video",
+         "label": "Tên ALEX dễ đọc và nhất quán trên mọi tài sản",
+         "required": true,
+         "priority": 1,
+         "weight": 20,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "no_claims",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "No trademarks, invented claims or customer testimonials appear",
+         "label": "Không nhãn hiệu, tuyên bố hay lời chứng thực",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "mood",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Màu nước loang nhẹ và nền sáng tạo cảm giác êm dịu, hợp người yêu cây cỏ.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Overall look feels warm, calm and modern, suited to plant lovers",
+         "label": "Cảm giác ấm áp, nhẹ nhàng, hiện đại",
+         "required": false,
+         "priority": 5,
+         "weight": 10,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        }
+       ],
+       "score": 4.1,
+       "quality_gate": "blocked",
+       "blocking_checks": [
+        "consistency",
+        "video_sound",
+        "tech_audio"
+       ],
+       "uncovered_requirements": [],
+       "priority_fix": "Tên ALEX dễ đọc và nhất quán trên mọi tài sản: Đưa máy quay lại gần hơn hoặc tăng độ đậm của chữ trong bản in.",
+       "summary": "Thiết kế và mockup đạt yêu cầu, nhưng video thiếu âm thanh và tên khó đọc khi chuyển động.",
+       "release_checks": [
+        {
+         "name": "Quyền sử dụng hình ảnh và phông chữ",
+         "status": "unverified",
+         "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+        },
+        {
+         "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+         "status": "unverified",
+         "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+        },
+        {
+         "name": "Chính sách quảng cáo của nền tảng",
+         "status": "unverified",
+         "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+        }
+       ],
+       "technical_checks": [
+        {
+         "id": "tech_audio",
+         "name": "Sound matches the campaign setting",
+         "status": "fail",
+         "expected": "audio track",
+         "actual": "no audio track"
+        },
+        {
+         "id": "tech_duration",
+         "name": "Video runs about 5 seconds",
+         "status": "pass",
+         "expected": "5 seconds",
+         "actual": "5.066667 seconds"
+        },
+        {
+         "id": "tech_ratio",
+         "name": "Vertical 9:16 frame",
+         "status": "pass",
+         "expected": "9:16",
+         "actual": "720x1280"
+        }
+       ],
+       "review_source": "independent_evaluator",
+       "conflicts": []
+      }
+     },
+     {
+      "number": 2,
+      "prompts": {
+       "design": "Isolated flat print artwork on a plain pure white canvas: a loose wreath of watercolour leaves in soft shades of blue surrounding the name \"ALEX\" in elegant, widely spaced serif capitals in navy. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+       "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: a blue watercolour leaf wreath around the name \"ALEX\". No other objects with text.",
+       "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. The camera starts close and pushes in slowly toward the wreath so the name stays large and readable. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+      },
+      "changes": "Tạo lại video có âm thanh nền và cho máy quay tiến gần để tên ALEX lớn, dễ đọc hơn.",
+      "design": {
+       "url": "/sample/media/design-v3.png",
+       "usage": null,
+       "reused": true
+      },
+      "mockup": {
+       "url": "/sample/media/mockup-v3-r1.jpg",
+       "usage": null,
+       "reused": true
+      },
+      "video": {
+       "url": "/sample/media/video-v3-r2.mp4",
+       "task": "cgt-video-v3-r2",
+       "usage": null
+      },
+      "probe": {
+       "container": "mp4",
+       "bytes": 895441,
+       "has_audio": true,
+       "audio_codec": "mp4a",
+       "video_codec": "avc1",
+       "duration_seconds": 5.066667,
+       "width": 720,
+       "height": 1280
+      },
+      "technical": [
+       {
+        "id": "tech_audio",
+        "name": "Sound matches the campaign setting",
+        "status": "pass",
+        "expected": "audio track",
+        "actual": "audio track present"
+       },
+       {
+        "id": "tech_duration",
+        "name": "Video runs about 5 seconds",
+        "status": "pass",
+        "expected": "5 seconds",
+        "actual": "5.066667 seconds"
+       },
+       {
+        "id": "tech_ratio",
+        "name": "Vertical 9:16 frame",
+        "status": "pass",
+        "expected": "9:16",
+        "actual": "720x1280"
+       }
+      ],
+      "evaluation": {
+       "report": {
+        "summary": "Âm thanh đã có và bố cục đẹp; tên ALEX đọc được ở cuối video.",
+        "uncovered_requirements": [],
+        "release_checks": [
+         {
+          "name": "Quyền sử dụng hình ảnh và phông chữ",
+          "status": "unverified",
+          "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+         },
+         {
+          "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+          "status": "unverified",
+          "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+         },
+         {
+          "name": "Chính sách quảng cáo của nền tảng",
+          "status": "unverified",
+          "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+         }
+        ],
+        "checks": [
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Vòng lá màu nước và chữ ALEX nằm trên nền trắng trơn, không có sản phẩm hay bóng đổ.",
+          "improvement": "Khi xuất tệp in nên dùng nền trong suốt.",
+          "id": "design_isolated"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Chỉ có chữ “ALEX” ở giữa vòng lá; gạch mảnh bên dưới là nét trang trí, không phải ký tự.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "name_exact"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Vòng lá gồm nhiều sắc xanh dương từ nhạt đến đậm; lá được gợi tả bằng mảng màu nước nên ít chi tiết.",
+          "improvement": "Thêm vài gân lá để hoạ tiết thực vật rõ hơn.",
+          "id": "botanical_blue"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Bản in nằm giữa mặt trước của cốc, quay về máy ảnh và không chạm mép.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "mockup_facing"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Video dọc khoảng 5 giây, máy quay tiến gần dần vào bản in; cốc luôn trong khung hình.",
+          "improvement": "Bắt đầu ở cự ly gần hơn để bản in lớn ngay từ đầu.",
+          "id": "video_format"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Thông số tệp do hệ thống đo cho thấy video có rãnh âm thanh (mp4a).",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "video_sound"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Tên ALEX đọc được ở cuối video; ở 2 giây đầu nét chữ mảnh còn mờ khi máy quay di chuyển.",
+          "improvement": "Bắt đầu video ở cự ly gần hơn.",
+          "id": "consistency"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "no_claims"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Màu nước loang nhẹ và nền sáng tạo cảm giác êm dịu, hợp người yêu cây cỏ.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "mood"
+         }
+        ]
+       },
+       "response_id": "resp-rehearsal-10",
+       "usage": null
+      },
+      "audit": {
+       "report": {
+        "conflicts": [
+         {
+          "id": "consistency",
+          "reason": "Bằng chứng nêu tên còn mờ ở 2 giây đầu nhưng kết luận lại là đạt; yêu cầu là tên phải dễ đọc trên mọi tài sản."
+         }
+        ],
+        "uncovered_requirements": []
+       },
+       "response_id": "resp-rehearsal-11",
+       "usage": null
+      },
+      "adjudication": {
+       "report": {
+        "summary": "Âm thanh đã có và bố cục đẹp, nhưng tên vẫn khó đọc ở đầu video nên tiêu chí bắt buộc về độ dễ đọc chưa đạt.",
+        "uncovered_requirements": [],
+        "release_checks": [
+         {
+          "name": "Quyền sử dụng hình ảnh và phông chữ",
+          "status": "unverified",
+          "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+         },
+         {
+          "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+          "status": "unverified",
+          "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+         },
+         {
+          "name": "Chính sách quảng cáo của nền tảng",
+          "status": "unverified",
+          "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+         }
+        ],
+        "checks": [
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Vòng lá màu nước và chữ ALEX nằm trên nền trắng trơn, không có sản phẩm hay bóng đổ.",
+          "improvement": "Khi xuất tệp in nên dùng nền trong suốt.",
+          "id": "design_isolated"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Chỉ có chữ “ALEX” ở giữa vòng lá; gạch mảnh bên dưới là nét trang trí, không phải ký tự.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "name_exact"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Vòng lá gồm nhiều sắc xanh dương từ nhạt đến đậm; lá được gợi tả bằng mảng màu nước nên ít chi tiết.",
+          "improvement": "Thêm vài gân lá để hoạ tiết thực vật rõ hơn.",
+          "id": "botanical_blue"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Bản in nằm giữa mặt trước của cốc, quay về máy ảnh và không chạm mép.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "mockup_facing"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Video dọc khoảng 5 giây, máy quay tiến gần dần vào bản in; cốc luôn trong khung hình.",
+          "improvement": "Bắt đầu ở cự ly gần hơn để bản in lớn ngay từ đầu.",
+          "id": "video_format"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Thông số tệp do hệ thống đo cho thấy video có rãnh âm thanh (mp4a).",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "video_sound"
+         },
+         {
+          "status": "fail",
+          "score": 3.5,
+          "evidence": "Trong video, nét chữ mảnh của ALEX còn mờ ở khoảng 2 giây đầu khi máy quay di chuyển; chỉ đọc rõ ở nửa sau.",
+          "improvement": "Tăng độ đậm nét chữ trong bản in hoặc bắt đầu video ở cự ly gần.",
+          "id": "consistency"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "no_claims"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Màu nước loang nhẹ và nền sáng tạo cảm giác êm dịu, hợp người yêu cây cỏ.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "mood"
+         }
+        ],
+        "resolutions": [
+         {
+          "id": "consistency",
+          "resolved": true,
+          "reason": "Xem lại video: trong khoảng 2 giây đầu nét chữ mảnh không đọc rõ, nên tiêu chí bắt buộc chưa đạt."
+         }
+        ]
+       },
+       "response_id": "resp-rehearsal-12",
+       "usage": null
+      },
+      "evidence": {
+       "response_id": "resp-rehearsal-12",
+       "source": "adjudication"
+      },
+      "review": {
+       "checks": [
+        {
+         "id": "design_isolated",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Vòng lá màu nước và chữ ALEX nằm trên nền trắng trơn, không có sản phẩm hay bóng đổ.",
+         "improvement": "Khi xuất tệp in nên dùng nền trong suốt.",
+         "name": "Design is isolated flat print artwork on a plain white canvas with no product, hands, room or shadow",
+         "label": "Bản in phẳng, tách trên nền trắng",
+         "required": true,
+         "priority": 1,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "name_exact",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Chỉ có chữ “ALEX” ở giữa vòng lá; gạch mảnh bên dưới là nét trang trí, không phải ký tự.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "The only text is the name ALEX, spelled exactly, with no extra words, letters or numbers",
+         "label": "Chỉ có chữ ALEX, đúng chính tả",
+         "required": true,
+         "priority": 1,
+         "weight": 15,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "botanical_blue",
+         "status": "pass",
+         "score": 4.5,
+         "evidence": "Vòng lá gồm nhiều sắc xanh dương từ nhạt đến đậm; lá được gợi tả bằng mảng màu nước nên ít chi tiết.",
+         "improvement": "Thêm vài gân lá để hoạ tiết thực vật rõ hơn.",
+         "name": "A botanical motif in blue accompanies the name",
+         "label": "Hoạ tiết thực vật màu xanh dương",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "mockup_facing",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Bản in nằm giữa mặt trước của cốc, quay về máy ảnh và không chạm mép.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Lifestyle mockup shows a ceramic mug with the whole print facing the camera and fully inside the printable area",
+         "label": "Mockup: bản in hướng về máy ảnh, nằm trọn trên cốc",
+         "required": true,
+         "priority": 2,
+         "weight": 15,
+         "asset_refs": [
+          "mockup"
+         ]
+        },
+        {
+         "id": "video_format",
+         "status": "pass",
+         "score": 4.5,
+         "evidence": "Video dọc khoảng 5 giây, máy quay tiến gần dần vào bản in; cốc luôn trong khung hình.",
+         "improvement": "Bắt đầu ở cự ly gần hơn để bản in lớn ngay từ đầu.",
+         "name": "Video is a 5-second vertical product video in which the mug and its print are visible",
+         "label": "Video dọc 5 giây, thấy rõ sản phẩm",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "video_sound",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Thông số tệp do hệ thống đo cho thấy video có rãnh âm thanh (mp4a).",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Video includes a sound track",
+         "label": "Video có âm thanh",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "consistency",
+         "status": "fail",
+         "score": 3.5,
+         "evidence": "Trong video, nét chữ mảnh của ALEX còn mờ ở khoảng 2 giây đầu khi máy quay di chuyển; chỉ đọc rõ ở nửa sau.",
+         "improvement": "Tăng độ đậm nét chữ trong bản in hoặc bắt đầu video ở cự ly gần.",
+         "name": "Artwork and ALEX lettering stay readable and consistent across design, mockup and video",
+         "label": "Tên ALEX dễ đọc và nhất quán trên mọi tài sản",
+         "required": true,
+         "priority": 1,
+         "weight": 20,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "no_claims",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "No trademarks, invented claims or customer testimonials appear",
+         "label": "Không nhãn hiệu, tuyên bố hay lời chứng thực",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "mood",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Màu nước loang nhẹ và nền sáng tạo cảm giác êm dịu, hợp người yêu cây cỏ.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Overall look feels warm, calm and modern, suited to plant lovers",
+         "label": "Cảm giác ấm áp, nhẹ nhàng, hiện đại",
+         "required": false,
+         "priority": 5,
+         "weight": 10,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        }
+       ],
+       "score": 4.6,
+       "quality_gate": "blocked",
+       "blocking_checks": [
+        "consistency"
+       ],
+       "uncovered_requirements": [],
+       "priority_fix": "Tên ALEX dễ đọc và nhất quán trên mọi tài sản: Tăng độ đậm nét chữ trong bản in hoặc bắt đầu video ở cự ly gần.",
+       "summary": "Âm thanh đã có và bố cục đẹp, nhưng tên vẫn khó đọc ở đầu video nên tiêu chí bắt buộc về độ dễ đọc chưa đạt.",
+       "release_checks": [
+        {
+         "name": "Quyền sử dụng hình ảnh và phông chữ",
+         "status": "unverified",
+         "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+        },
+        {
+         "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+         "status": "unverified",
+         "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+        },
+        {
+         "name": "Chính sách quảng cáo của nền tảng",
+         "status": "unverified",
+         "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+        }
+       ],
+       "technical_checks": [
+        {
+         "id": "tech_audio",
+         "name": "Sound matches the campaign setting",
+         "status": "pass",
+         "expected": "audio track",
+         "actual": "audio track present"
+        },
+        {
+         "id": "tech_duration",
+         "name": "Video runs about 5 seconds",
+         "status": "pass",
+         "expected": "5 seconds",
+         "actual": "5.066667 seconds"
+        },
+        {
+         "id": "tech_ratio",
+         "name": "Vertical 9:16 frame",
+         "status": "pass",
+         "expected": "9:16",
+         "actual": "720x1280"
+        }
+       ],
+       "review_source": "adjudication",
+       "conflicts": [
+        {
+         "id": "consistency",
+         "reason": "Bằng chứng nêu tên còn mờ ở 2 giây đầu nhưng kết luận lại là đạt; yêu cầu là tên phải dễ đọc trên mọi tài sản.",
+         "resolved": true,
+         "resolution": "Xem lại video: trong khoảng 2 giây đầu nét chữ mảnh không đọc rõ, nên tiêu chí bắt buộc chưa đạt."
+        }
+       ]
+      }
+     }
+    ],
+    "best_round": 2
+   },
+   {
+    "id": "v2",
+    "title": "Chữ lớn ôm thân cốc",
+    "style": "Oversized wrap lettering",
+    "rationale": "TikTok khuyên nêu thông điệp trong 3 giây đầu. Chữ in hoa cỡ lớn giúp tên đọc được ngay trên video dọc và tạo cá tính mạnh.",
+    "palette": [
+     "#0F4FA8"
+    ],
+    "status": "completed",
+    "error": null,
+    "rounds": [
+     {
+      "number": 1,
+      "prompts": {
+       "design": "Isolated flat print artwork on a plain pure white canvas: the name \"ALEX\" in very large, bold, condensed serif capitals in deep blue, with a blue line-art botanical sprig growing between the letters L and E. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+       "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: very large bold blue serif capitals \"ALEX\" with a botanical sprig. No other objects with text.",
+       "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. The mug turns slowly on the spot. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+      },
+      "design": {
+       "url": "/sample/media/design-v2.png",
+       "usage": null,
+       "reused": true
+      },
+      "mockup": {
+       "url": "/sample/media/mockup-v2-r1.jpg",
+       "usage": null
+      },
+      "video": {
+       "url": "/sample/media/video-v2-r1.mp4",
+       "task": "cgt-video-v2-r1",
+       "usage": null
+      },
+      "probe": {
+       "container": "mp4",
+       "bytes": 2727697,
+       "has_audio": true,
+       "audio_codec": "mp4a",
+       "video_codec": "avc1",
+       "duration_seconds": 5.041992,
+       "width": 720,
+       "height": 1280
+      },
+      "technical": [
+       {
+        "id": "tech_audio",
+        "name": "Sound matches the campaign setting",
+        "status": "pass",
+        "expected": "audio track",
+        "actual": "audio track present"
+       },
+       {
+        "id": "tech_duration",
+        "name": "Video runs about 5 seconds",
+        "status": "pass",
+        "expected": "5 seconds",
+        "actual": "5.041992 seconds"
+       },
+       {
+        "id": "tech_ratio",
+        "name": "Vertical 9:16 frame",
+        "status": "pass",
+        "expected": "9:16",
+        "actual": "720x1280"
+       }
+      ],
+      "evaluation": {
+       "report": {
+        "summary": "Kiểu chữ lớn nổi bật nhưng bản in tràn khỏi thân cốc, khiến tên không đọc trọn vẹn trên mockup và video.",
+        "uncovered_requirements": [],
+        "release_checks": [
+         {
+          "name": "Quyền sử dụng hình ảnh và phông chữ",
+          "status": "unverified",
+          "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+         },
+         {
+          "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+          "status": "unverified",
+          "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+         },
+         {
+          "name": "Chính sách quảng cáo của nền tảng",
+          "status": "unverified",
+          "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+         }
+        ],
+        "checks": [
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Bản thiết kế là chữ ALEX cỡ lớn cùng nhánh lá trên nền trắng, không có sản phẩm hay bóng đổ.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "design_isolated"
+         },
+         {
+          "status": "pass",
+          "score": 4,
+          "evidence": "Chữ trên bản thiết kế là “ALEX”; trên mockup chữ A và X bị khuất một phần ở mép cốc nhưng không có ký tự thừa.",
+          "improvement": "Thu nhỏ bản in để cả bốn chữ hiện trọn vẹn.",
+          "id": "name_exact"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Nhánh lá xanh dương nằm giữa chữ L và E, cùng màu với chữ.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "botanical_blue"
+         },
+         {
+          "status": "fail",
+          "score": 1.5,
+          "evidence": "Bản in rộng hơn thân cốc: chữ A và chữ X tràn ra ngoài hai mép, không nằm trọn trong vùng in.",
+          "improvement": "Thu nhỏ bản in còn khoảng 80% bề ngang mặt trước của cốc.",
+          "id": "mockup_facing"
+         },
+         {
+          "status": "pass",
+          "score": 4,
+          "evidence": "Video dọc khoảng 5 giây, máy quay di chuyển chậm; sản phẩm luôn trong khung hình.",
+          "improvement": "Giữ bản in ở chính giữa khung hình.",
+          "id": "video_format"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Thông số tệp do hệ thống đo cho thấy video có rãnh âm thanh (mp4a).",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "video_sound"
+         },
+         {
+          "status": "fail",
+          "score": 2,
+          "evidence": "Ở đầu video chỉ thấy “LEX” vì chữ A nằm khuất ở mép cốc; tên không đọc trọn vẹn trên mockup và video.",
+          "improvement": "Giữ cả bốn chữ ở mặt trước cốc trong suốt video.",
+          "id": "consistency"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "no_claims"
+         },
+         {
+          "status": "pass",
+          "score": 4,
+          "evidence": "Chữ lớn, tương phản mạnh tạo cảm giác hiện đại nhưng kém nhẹ nhàng hơn các hướng khác.",
+          "improvement": "Thêm khoảng trắng quanh chữ để bố cục mềm hơn.",
+          "id": "mood"
+         }
+        ]
+       },
+       "response_id": "resp-rehearsal-8",
+       "usage": null
+      },
+      "audit": {
+       "report": {
+        "conflicts": [],
+        "uncovered_requirements": []
+       },
+       "response_id": "resp-rehearsal-9",
+       "usage": null
+      },
+      "evidence": {
+       "response_id": "resp-rehearsal-8",
+       "source": "independent_evaluator"
+      },
+      "review": {
+       "checks": [
+        {
+         "id": "design_isolated",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Bản thiết kế là chữ ALEX cỡ lớn cùng nhánh lá trên nền trắng, không có sản phẩm hay bóng đổ.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Design is isolated flat print artwork on a plain white canvas with no product, hands, room or shadow",
+         "label": "Bản in phẳng, tách trên nền trắng",
+         "required": true,
+         "priority": 1,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "name_exact",
+         "status": "pass",
+         "score": 4,
+         "evidence": "Chữ trên bản thiết kế là “ALEX”; trên mockup chữ A và X bị khuất một phần ở mép cốc nhưng không có ký tự thừa.",
+         "improvement": "Thu nhỏ bản in để cả bốn chữ hiện trọn vẹn.",
+         "name": "The only text is the name ALEX, spelled exactly, with no extra words, letters or numbers",
+         "label": "Chỉ có chữ ALEX, đúng chính tả",
+         "required": true,
+         "priority": 1,
+         "weight": 15,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "botanical_blue",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Nhánh lá xanh dương nằm giữa chữ L và E, cùng màu với chữ.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "A botanical motif in blue accompanies the name",
+         "label": "Hoạ tiết thực vật màu xanh dương",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "mockup_facing",
+         "status": "fail",
+         "score": 1.5,
+         "evidence": "Bản in rộng hơn thân cốc: chữ A và chữ X tràn ra ngoài hai mép, không nằm trọn trong vùng in.",
+         "improvement": "Thu nhỏ bản in còn khoảng 80% bề ngang mặt trước của cốc.",
+         "name": "Lifestyle mockup shows a ceramic mug with the whole print facing the camera and fully inside the printable area",
+         "label": "Mockup: bản in hướng về máy ảnh, nằm trọn trên cốc",
+         "required": true,
+         "priority": 2,
+         "weight": 15,
+         "asset_refs": [
+          "mockup"
+         ]
+        },
+        {
+         "id": "video_format",
+         "status": "pass",
+         "score": 4,
+         "evidence": "Video dọc khoảng 5 giây, máy quay di chuyển chậm; sản phẩm luôn trong khung hình.",
+         "improvement": "Giữ bản in ở chính giữa khung hình.",
+         "name": "Video is a 5-second vertical product video in which the mug and its print are visible",
+         "label": "Video dọc 5 giây, thấy rõ sản phẩm",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "video_sound",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Thông số tệp do hệ thống đo cho thấy video có rãnh âm thanh (mp4a).",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Video includes a sound track",
+         "label": "Video có âm thanh",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "consistency",
+         "status": "fail",
+         "score": 2,
+         "evidence": "Ở đầu video chỉ thấy “LEX” vì chữ A nằm khuất ở mép cốc; tên không đọc trọn vẹn trên mockup và video.",
+         "improvement": "Giữ cả bốn chữ ở mặt trước cốc trong suốt video.",
+         "name": "Artwork and ALEX lettering stay readable and consistent across design, mockup and video",
+         "label": "Tên ALEX dễ đọc và nhất quán trên mọi tài sản",
+         "required": true,
+         "priority": 1,
+         "weight": 20,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "no_claims",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "No trademarks, invented claims or customer testimonials appear",
+         "label": "Không nhãn hiệu, tuyên bố hay lời chứng thực",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "mood",
+         "status": "pass",
+         "score": 4,
+         "evidence": "Chữ lớn, tương phản mạnh tạo cảm giác hiện đại nhưng kém nhẹ nhàng hơn các hướng khác.",
+         "improvement": "Thêm khoảng trắng quanh chữ để bố cục mềm hơn.",
+         "name": "Overall look feels warm, calm and modern, suited to plant lovers",
+         "label": "Cảm giác ấm áp, nhẹ nhàng, hiện đại",
+         "required": false,
+         "priority": 5,
+         "weight": 10,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        }
+       ],
+       "score": 3.525,
+       "quality_gate": "blocked",
+       "blocking_checks": [
+        "consistency",
+        "mockup_facing"
+       ],
+       "uncovered_requirements": [],
+       "priority_fix": "Tên ALEX dễ đọc và nhất quán trên mọi tài sản: Giữ cả bốn chữ ở mặt trước cốc trong suốt video.",
+       "summary": "Kiểu chữ lớn nổi bật nhưng bản in tràn khỏi thân cốc, khiến tên không đọc trọn vẹn trên mockup và video.",
+       "release_checks": [
+        {
+         "name": "Quyền sử dụng hình ảnh và phông chữ",
+         "status": "unverified",
+         "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+        },
+        {
+         "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+         "status": "unverified",
+         "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+        },
+        {
+         "name": "Chính sách quảng cáo của nền tảng",
+         "status": "unverified",
+         "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+        }
+       ],
+       "technical_checks": [
+        {
+         "id": "tech_audio",
+         "name": "Sound matches the campaign setting",
+         "status": "pass",
+         "expected": "audio track",
+         "actual": "audio track present"
+        },
+        {
+         "id": "tech_duration",
+         "name": "Video runs about 5 seconds",
+         "status": "pass",
+         "expected": "5 seconds",
+         "actual": "5.041992 seconds"
+        },
+        {
+         "id": "tech_ratio",
+         "name": "Vertical 9:16 frame",
+         "status": "pass",
+         "expected": "9:16",
+         "actual": "720x1280"
+        }
+       ],
+       "review_source": "independent_evaluator",
+       "conflicts": []
+      }
+     },
+     {
+      "number": 2,
+      "prompts": {
+       "design": "Isolated flat print artwork on a plain pure white canvas: the name \"ALEX\" in very large, bold, condensed serif capitals in deep blue, with a blue line-art botanical sprig growing between the letters L and E. No product, mug, hand, room, shadow or mockup. No other text, logo or border.",
+       "mockup": "Lifestyle product photo of a matte white ceramic mug on a light neutral table in soft natural daylight, calm modern home, handle to the right. The supplied artwork is printed on the front of the mug, facing the camera, fully inside the printable area and fully readable: bold blue serif capitals \"ALEX\" with a botanical sprig, scaled to about 80% of the width of the mug front so all four letters are visible. No other objects with text.",
+       "video": "5-second vertical 9:16 product video of the same ceramic mug. The mug and its print are in frame from the first second with the print facing the camera. Slow push-in; all four letters of the name stay on the front of the mug for the whole video. Soft, warm acoustic background music at low volume. No voice-over, no on-screen text, no claims."
+      },
+      "changes": "Thu nhỏ bản in để nằm trọn ở mặt trước cốc và giữ cả bốn chữ trong khung hình suốt video.",
+      "design": {
+       "url": "/sample/media/design-v2.png",
+       "usage": null,
+       "reused": true
+      },
+      "mockup": {
+       "url": "/sample/media/mockup-v2-r2.jpg",
+       "usage": null
+      },
+      "video": {
+       "url": "/sample/media/video-v2-r2.mp4",
+       "task": "cgt-video-v2-r2",
+       "usage": null
+      },
+      "probe": {
+       "container": "mp4",
+       "bytes": 1145490,
+       "has_audio": true,
+       "audio_codec": "mp4a",
+       "video_codec": "avc1",
+       "duration_seconds": 5.066667,
+       "width": 720,
+       "height": 1280
+      },
+      "technical": [
+       {
+        "id": "tech_audio",
+        "name": "Sound matches the campaign setting",
+        "status": "pass",
+        "expected": "audio track",
+        "actual": "audio track present"
+       },
+       {
+        "id": "tech_duration",
+        "name": "Video runs about 5 seconds",
+        "status": "pass",
+        "expected": "5 seconds",
+        "actual": "5.066667 seconds"
+       },
+       {
+        "id": "tech_ratio",
+        "name": "Vertical 9:16 frame",
+        "status": "pass",
+        "expected": "9:16",
+        "actual": "720x1280"
+       }
+      ],
+      "evaluation": {
+       "report": {
+        "summary": "Sau khi thu nhỏ bản in, tên ALEX hiện trọn vẹn và đọc rõ; bộ tài sản đạt mọi tiêu chí bắt buộc.",
+        "uncovered_requirements": [],
+        "release_checks": [
+         {
+          "name": "Quyền sử dụng hình ảnh và phông chữ",
+          "status": "unverified",
+          "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+         },
+         {
+          "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+          "status": "unverified",
+          "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+         },
+         {
+          "name": "Chính sách quảng cáo của nền tảng",
+          "status": "unverified",
+          "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+         }
+        ],
+        "checks": [
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Bản thiết kế là chữ ALEX cỡ lớn cùng nhánh lá trên nền trắng, không có sản phẩm hay bóng đổ.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "design_isolated"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Cả bốn chữ ALEX hiện đầy đủ trên thiết kế, mockup và video; không có ký tự thừa.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "name_exact"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Nhánh lá xanh dương vẫn ở giữa tên nhưng chồng lên chân chữ L nên hơi khó tách khỏi chữ.",
+          "improvement": "Tách nhánh lá khỏi chữ L một khoảng nhỏ.",
+          "id": "botanical_blue"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Bản in đã thu gọn, nằm trọn ở mặt trước cốc và quay về máy ảnh.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "mockup_facing"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Video dọc khoảng 5 giây, máy quay tiến gần chậm; cốc và bản in luôn trong khung hình.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "video_format"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Thông số tệp do hệ thống đo cho thấy video có rãnh âm thanh (mp4a).",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "video_sound"
+         },
+         {
+          "status": "pass",
+          "score": 4.5,
+          "evidence": "Tên ALEX đọc rõ trên cả ba tài sản; kiểu chữ và màu xanh nhất quán.",
+          "improvement": "Tăng nhẹ khoảng cách giữa chữ L và E.",
+          "id": "consistency"
+         },
+         {
+          "status": "pass",
+          "score": 5,
+          "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+          "improvement": "Không cần chỉnh sửa.",
+          "id": "no_claims"
+         },
+         {
+          "status": "pass",
+          "score": 4,
+          "evidence": "Chữ lớn, tương phản mạnh tạo cảm giác hiện đại nhưng kém nhẹ nhàng hơn các hướng khác.",
+          "improvement": "Thêm khoảng trắng quanh chữ để bố cục mềm hơn.",
+          "id": "mood"
+         }
+        ]
+       },
+       "response_id": "resp-rehearsal-13",
+       "usage": null
+      },
+      "audit": {
+       "report": {
+        "conflicts": [],
+        "uncovered_requirements": []
+       },
+       "response_id": "resp-rehearsal-14",
+       "usage": null
+      },
+      "evidence": {
+       "response_id": "resp-rehearsal-13",
+       "source": "independent_evaluator"
+      },
+      "review": {
+       "checks": [
+        {
+         "id": "design_isolated",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Bản thiết kế là chữ ALEX cỡ lớn cùng nhánh lá trên nền trắng, không có sản phẩm hay bóng đổ.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Design is isolated flat print artwork on a plain white canvas with no product, hands, room or shadow",
+         "label": "Bản in phẳng, tách trên nền trắng",
+         "required": true,
+         "priority": 1,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "name_exact",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Cả bốn chữ ALEX hiện đầy đủ trên thiết kế, mockup và video; không có ký tự thừa.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "The only text is the name ALEX, spelled exactly, with no extra words, letters or numbers",
+         "label": "Chỉ có chữ ALEX, đúng chính tả",
+         "required": true,
+         "priority": 1,
+         "weight": 15,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "botanical_blue",
+         "status": "pass",
+         "score": 4.5,
+         "evidence": "Nhánh lá xanh dương vẫn ở giữa tên nhưng chồng lên chân chữ L nên hơi khó tách khỏi chữ.",
+         "improvement": "Tách nhánh lá khỏi chữ L một khoảng nhỏ.",
+         "name": "A botanical motif in blue accompanies the name",
+         "label": "Hoạ tiết thực vật màu xanh dương",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "design"
+         ]
+        },
+        {
+         "id": "mockup_facing",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Bản in đã thu gọn, nằm trọn ở mặt trước cốc và quay về máy ảnh.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Lifestyle mockup shows a ceramic mug with the whole print facing the camera and fully inside the printable area",
+         "label": "Mockup: bản in hướng về máy ảnh, nằm trọn trên cốc",
+         "required": true,
+         "priority": 2,
+         "weight": 15,
+         "asset_refs": [
+          "mockup"
+         ]
+        },
+        {
+         "id": "video_format",
+         "status": "pass",
+         "score": 4.5,
+         "evidence": "Video dọc khoảng 5 giây, máy quay tiến gần chậm; cốc và bản in luôn trong khung hình.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Video is a 5-second vertical product video in which the mug and its print are visible",
+         "label": "Video dọc 5 giây, thấy rõ sản phẩm",
+         "required": true,
+         "priority": 2,
+         "weight": 10,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "video_sound",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Thông số tệp do hệ thống đo cho thấy video có rãnh âm thanh (mp4a).",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "Video includes a sound track",
+         "label": "Video có âm thanh",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "video"
+         ]
+        },
+        {
+         "id": "consistency",
+         "status": "pass",
+         "score": 4.5,
+         "evidence": "Tên ALEX đọc rõ trên cả ba tài sản; kiểu chữ và màu xanh nhất quán.",
+         "improvement": "Tăng nhẹ khoảng cách giữa chữ L và E.",
+         "name": "Artwork and ALEX lettering stay readable and consistent across design, mockup and video",
+         "label": "Tên ALEX dễ đọc và nhất quán trên mọi tài sản",
+         "required": true,
+         "priority": 1,
+         "weight": 20,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "no_claims",
+         "status": "pass",
+         "score": 5,
+         "evidence": "Không có logo, nhãn hiệu, giá, lời cam kết hay lời chứng thực nào xuất hiện.",
+         "improvement": "Không cần chỉnh sửa.",
+         "name": "No trademarks, invented claims or customer testimonials appear",
+         "label": "Không nhãn hiệu, tuyên bố hay lời chứng thực",
+         "required": true,
+         "priority": 3,
+         "weight": 5,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        },
+        {
+         "id": "mood",
+         "status": "pass",
+         "score": 4,
+         "evidence": "Chữ lớn, tương phản mạnh tạo cảm giác hiện đại nhưng kém nhẹ nhàng hơn các hướng khác.",
+         "improvement": "Thêm khoảng trắng quanh chữ để bố cục mềm hơn.",
+         "name": "Overall look feels warm, calm and modern, suited to plant lovers",
+         "label": "Cảm giác ấm áp, nhẹ nhàng, hiện đại",
+         "required": false,
+         "priority": 5,
+         "weight": 10,
+         "asset_refs": [
+          "design",
+          "mockup",
+          "video"
+         ]
+        }
+       ],
+       "score": 4.7,
+       "quality_gate": "passed",
+       "blocking_checks": [],
+       "uncovered_requirements": [],
+       "priority_fix": "Cảm giác ấm áp, nhẹ nhàng, hiện đại: Thêm khoảng trắng quanh chữ để bố cục mềm hơn.",
+       "summary": "Sau khi thu nhỏ bản in, tên ALEX hiện trọn vẹn và đọc rõ; bộ tài sản đạt mọi tiêu chí bắt buộc.",
+       "release_checks": [
+        {
+         "name": "Quyền sử dụng hình ảnh và phông chữ",
+         "status": "unverified",
+         "evidence": "Không thể xác minh bản quyền từ hình ảnh."
+        },
+        {
+         "name": "Thông số in của nhà cung cấp (300 DPI, vùng in an toàn)",
+         "status": "unverified",
+         "evidence": "Ảnh AI là bản ý tưởng; tệp in cần được kiểm tra theo khuôn của nhà in."
+        },
+        {
+         "name": "Chính sách quảng cáo của nền tảng",
+         "status": "unverified",
+         "evidence": "Chưa đối chiếu với chính sách hiện hành của TikTok."
+        }
+       ],
+       "technical_checks": [
+        {
+         "id": "tech_audio",
+         "name": "Sound matches the campaign setting",
+         "status": "pass",
+         "expected": "audio track",
+         "actual": "audio track present"
+        },
+        {
+         "id": "tech_duration",
+         "name": "Video runs about 5 seconds",
+         "status": "pass",
+         "expected": "5 seconds",
+         "actual": "5.066667 seconds"
+        },
+        {
+         "id": "tech_ratio",
+         "name": "Vertical 9:16 frame",
+         "status": "pass",
+         "expected": "9:16",
+         "actual": "720x1280"
+        }
+       ],
+       "review_source": "independent_evaluator",
+       "conflicts": []
+      }
+     }
+    ],
+    "best_round": 2
+   }
+  ]
+ },
+ "created": "2026-09-30T02:04:00.000Z",
+ "sample": true,
+ "sample_note": "The market sources are real pages and public catalogs read on 30 Sep 2026. Images and videos are stand-ins, partly from an earlier real run, and the reviewer comments are written examples."
+}

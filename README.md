@@ -1,43 +1,105 @@
-# SZ Creative Studio: Autonomous MA Cloud
+# POD Creative Studio
 
-Customer setup and reproduction: [English](CUSTOMER_DEMO_EN.md) | [中文](CUSTOMER_DEMO_ZH.md).
+A demo for print-on-demand gift businesses. A customer writes one brief; a Managed Agent (MA) in the cloud studies the market, designs five directions in different styles, and turns the customer's favourites into product mockups and short videos with sound. Independent reviewers score every result against the brief, and the agent revises what did not pass.
 
-![Latest cloud retest workspace](docs/assets/ui-workspace.png)
+## Walkthrough
 
-See the guides for UI screenshots and the [asset inventory](docs/assets/README.md). The September 28 cloud retest archived all four images and two videos, plus a [sanitized evaluation report](docs/assets/retest-20260928/result.json). Click the preview to open the selected round's original video:
+[![Walkthrough of POD Creative Studio: brief, research, design choice, production and review](docs/assets/walkthrough/poster.jpg)](docs/assets/walkthrough/walkthrough.mp4)
 
-[![Selected video](docs/assets/retest-20260928/round-2-video-poster.jpg)](docs/assets/retest-20260928/round-2-video.mp4)
+A 7-minute tour of one campaign from brief to review. Click the image to open the video.
 
-New campaigns execute generation, media analysis, model scoring and bounded revision inside MA Cloud. The localhost backend only creates a Session, sends the brief, observes events and renders the returned manifest. It does not call generation or evaluation APIs for cloud campaigns.
+## How it works
+
+The interface is in English. Everything the agent writes (research, rationales, review findings) is delivered in the campaign's report language, Vietnamese by default.
 
 ```text
-Browser -> local Session bridge -> MA Cloud Session
-                                  +-- main model: research and plan
-                                  +-- pod-creative-loop Skill + Python
-                                  |   +-- Seedream: artwork and mockup
-                                  |   +-- Seedance: video and task polling
-                                  |   +-- Responses SSE: independent evaluation and audit
-                                  |   +-- conflict adjudication when needed
-                                  +-- main model: revise from reviewed evidence
-                                  +-- revise highest-priority defect, repeat
-                                  +-- export best-round manifest
+Browser -> local bridge -> MA Cloud Session
+                            |
+   PHASE 1  Explore         +-- read the brief: market, buyer, occasion
+                            +-- research: marketplaces, competitor stores, social video, gifting calendar
+                            +-- acceptance criteria, checked by an independent auditor, then frozen
+                            +-- five design variants in different styles -> Seedream
+                            +-- independent reviewer ranks the five designs
+                            v
+   the customer chooses up to three designs in the browser
+                            |
+   PHASE 2  Produce         +-- per chosen design: mockup (Seedream), 5 s 9:16 video with sound (Seedance)
+                            +-- helper inspects each video file: sound track, length, frame
+                            +-- independent evaluation -> audit -> adjudication on conflict
+                            +-- agent revises what failed, up to the round limit
+                            +-- verified result for every design, best one marked
 ```
 
-## Evaluation and iteration
+The local bridge only creates the Session, sends the brief and the customer's choice, observes events and renders the verified result. It never calls a generation or evaluation API.
 
-MA derives acceptance criteria from the original brief before generation and freezes their requirements, priorities and weights. Independent model contexts inspect actual media, audit evidence and adjudicate conflicts when needed. The helper computes a weighted score; all required criteria must pass and the target score must be reached. Unverified required criteria prevent completion. Missing requirement coverage blocks the campaign for correction rather than silently relaxing the criteria. Otherwise MA revises up to the round limit and returns the best evaluated round. These reviewer contexts run through model API calls inside MA Cloud, not separate MA Sessions.
+## Try it without the cloud
 
-Defaults: maximum 3 rounds, target 4.5/5. Both are editable in the campaign form; maximum allowed rounds is 5. Each round generates one artwork, one mockup and one 5-second 9:16 video. These are helper-enforced operational bounds, not provider-enforced spending limits.
+Requires Node 22+ and Python 3.
 
-A passing round returns immediately. At the round limit, selection prioritizes the highest-scoring round that passes all required checks; if none does, it returns the highest-scoring round overall. Ties retain the earlier round. The selected result includes remaining failed/unverified checks and its score gap. Watermark is customer-configurable for both images and video.
+```bash
+npm ci
+npm run rehearse
+```
 
-Printing specifications, licensing and platform publication checks are separate from creative-quality scores. The model evaluates available evidence and marks unsupported items unverified. Automatic evaluation does not imply rights clearance or automatic publishing. No publishing API is connected.
+Open [the workspace](http://127.0.0.1:8790). Rehearsal mode replaces the cloud with a scripted agent that drives the real helper scripts and the real bridge, using bundled sample media. A whole campaign takes about two minutes, calls no model and costs nothing. Use it to learn the flow, to rehearse a presentation, or as a fallback when the network is poor.
 
-## Run
+Without rehearsal mode and without cloud IDs, the app still opens and **Explore the sample** shows one finished campaign.
 
-Requires Node 22+, authenticated BytePlus ArkCLI, and Python 3 for helper tests/packaging.
+Set another port with `PORT=8795 npm run rehearse` if 8790 is taken.
 
-Videos default to silent showcases (`generate_audio: false`). Seedance tasks that explicitly fail with an allowlisted temporary provider error retry at most twice per quality round, with 5/10-second backoff and persisted counters. Retries reuse generated images and do not consume quality rounds. Policy/unknown failures and expired/cancelled tasks stop for inspection. Read-only task queries retry transient network/429/5xx errors twice using the same task ID. Uncertain creation requests never auto-resubmit, avoiding duplicate paid generation. Replacement tasks may incur additional charges. Existing Sessions retain their installed Skill version; start a new Session after deploying this update.
+## What a campaign contains
+
+### Market research
+
+The agent works through five channels and reports honestly what each one gave it.
+
+| Channel | How it is read | What it yields |
+| --- | --- | --- |
+| Amazon | Category Best Sellers and New Releases pages | Ranked titles, prices, rating counts |
+| Etsy | Trend reports and news; search pages refuse automated reads | Named trends, price bands |
+| Competitor stores | `research.py storefront` reads the public catalog feed of Shopify stores | Merchant best-seller collection, newest launches, title keywords, prices, share of personalized products |
+| TikTok | Official creative guidance and current coverage | Formats, hooks, sound use |
+| Seasonal trends | `research.py calendar` plus seasonal spending reports | Upcoming US occasions, selling windows, spending figures |
+
+Rules the helper enforces before anything is generated:
+
+- Every source is recorded with URL, channel, retrieval date and how it was read: page read, search result only, or catalog feed.
+- Every source links to a page a person can open, never a JSON data feed.
+- Every competitor design, keyword, opportunity and seasonal focus cites recorded sources, or is marked as a hypothesis.
+- The customer's own store (the optional **Your store** field) may be studied for style but is never listed as a competitor.
+- A channel counts as covered only if it has a recorded source. Blocked channels are reported as limited or unavailable.
+- Fewer than 8 sources or 3 channels means the study is labelled limited, with the reason.
+- Numbers appear only as the source states them. Ranks and catalog positions are never converted into sales.
+
+The agent does not work around login walls, CAPTCHAs, rate limits or `robots.txt`. `research.py storefront` checks `robots.txt`, identifies itself, reads at most five pages per store and never reads sorted collection URLs, which Shopify disallows. For deeper data in production, connect official sources with the customer's own credentials, for example the Etsy Open API v3, which needs an API key. Amazon, TikTok and Google Trends restrict programmatic access; check each provider's current API terms before relying on them.
+
+The gifting calendar is computed by the helper, not recalled by a model. Its planning windows (list by, ads from, order cutoff) are rules of thumb; print providers publish real cutoffs each season.
+
+### Design exploration and the customer's choice
+
+The agent proposes five variants (configurable, 3 to 6), each in a visibly different style with a rationale, palette, typography and the sources that inspired it. An independent reviewer that sees only the images ranks them and checks the spelling of the printed text. The customer then chooses up to three (configurable, 1 to 3) in order of preference. Only chosen designs cost further generation.
+
+Designs appear in the browser one by one while the agent is still working, marked as previews.
+
+### Production
+
+Each chosen design gets a mockup that uses the design as reference and a 5-second 9:16 video that uses the mockup as reference. Videos are requested with `generate_audio: true` unless the customer switches sound off. A revision keeps the customer's chosen artwork unless a failed check points at the artwork itself.
+
+After each video is rendered, the helper downloads the file and reads its container: whether an audio track exists, its length and its frame size. These measured facts are given to the reviewers and also act as checks of their own, so a silent video cannot be accepted when sound was requested.
+
+### Evaluation and iteration
+
+The agent derives acceptance criteria from the brief before generation. An independent auditor compares them with the brief; gaps go back to the agent up to twice before the criteria are frozen. Reviewers then inspect the actual media in separate model contexts that never see the agent's reasoning: evaluation, then audit, then adjudication when the audit finds a conflict. These are model API calls inside MA Cloud, not separate Sessions.
+
+The helper computes the weighted score `sum(score x weight) / sum(weight)`. A design is accepted only when every required check passes, every measured check passes and the score reaches the target. Optional preferences affect the score but never block. An unverified required check blocks. The reviewer models cannot listen yet, so the agent writes no criteria about how the audio sounds; only the presence of a sound track is checked. Connect an audio-capable review model to add them.
+
+Defaults: up to 2 rounds per design, target 4.5 / 5. Both are editable when creating a campaign; the maximum is 5 rounds. A design stops as soon as it passes. At the round limit the helper keeps the highest-scoring round that passed the required checks, otherwise the highest-scoring round; ties keep the earlier round. The top result is the accepted design with the highest score.
+
+One failed design never stops the others. Model acceptance is not rights clearance, print approval or platform approval, and nothing is published automatically.
+
+## Run live
+
+Requires authenticated BytePlus ArkCLI. Live runs incur model, MA runtime and search charges.
 
 ```bash
 npm ci
@@ -46,52 +108,95 @@ cp .env.example .env
 npm start
 ```
 
-Open [the workspace](http://127.0.0.1:8790). Create a campaign, set limits and click Run cloud loop once. Media and scores appear when MA returns the final manifest. A failed local observation can be resumed without sending the brief again. Temporary signed media URLs expire; JSON export is not an offline media archive.
+Create a campaign and press **Start research & designs**. Expect 8 to 15 minutes for phase 1 and 10 to 20 minutes for phase 2, depending on the models and the number of revisions. Keep the app running to collect results. If the local observer stops, **Resume watching** re-attaches to the same Session without sending anything again.
 
-Existing campaigns without `mode: ma_cloud` are retained and labeled Legacy local orchestration. They are not evidence of cloud autonomy. New customers should use the cloud workflow documented in the guides above.
-
-## Deploy
-
-1. Authenticate with `arkcli auth login`; check `arkcli auth status --format json`.
-2. Package `skills/pod-creative-loop/` with its SKILL.md and scripts. Upload using `arkcli agent skill create --zip <ZIP> --display-title 'SZ Autonomous POD Loop' --format json`.
-3. Create a dedicated Cloud Environment with `Type: cloud`, unrestricted networking and user-approved `Env.ARK_API_KEY`. The included `deploy-environment.mjs` reads the key from its process environment, creates a private temporary config, withholds credential-bearing output and removes the temporary file. Use an approved secret mechanism, not shared command transcripts. Change its demo resource name for another deployment.
-4. Create an Agent using `cloud-system.md`, an available MA model and the returned explicit Skill ID/version. Read it back to verify tools and Skills. This account's test used seed-2-0-lite-260428; availability is account-specific.
-5. Set the new Agent/Environment IDs in `.env`. Enable paid execution only with authorization.
-
-`config.env` is NOT a secret vault: configuration readers and code in the Agent environment can access its values. This demo user explicitly approved that arrangement. Use a scoped test key, restricted access and an approved secret design before production. Never put keys into a Skill ZIP, prompt, source code or screenshot.
-
-## Helper and recovery
-
-The MA-resident `skills/pod-creative-loop/scripts/creative.py` uses Python's standard library. Commands: `init --input plan.json`, `step`, `revise --input prompts.json`, `status`, `export`. The Skill specifies the JSON schemas and invocation sequence. State persists at `/mnt/session/creative-loop/state.json`. Independent model calls supply scores and evidence; the helper validates their schema, computes the weighted score and enforces stop conditions. Manual reviews are disabled. Never edit state or bypass export validation.
-
-- Image/video POSTs are not blindly retried. An uncertain outcome retains a blocking marker for inspection.
-- State is HMAC-signed to detect accidental direct edits; export validates assets, evidence and scores. This is a consistency check, not a security boundary against code with access to the same environment key. The bridge also rejects observed direct write/edit calls to protected state or Skill files.
-- Video polling reuses the task ID and stops after 30 minutes; it does not cancel the provider task.
-- Responses SSE requires an explicit response.completed event and completed status. HTTP 200, `[DONE]`, incomplete output or a disconnect are not success. Each evaluation, audit or adjudication phase permits at most two attempts.
-- The bridge correlates replies with the accepted user event and retries transient reads at most three times. Very large histories can exceed pagination/output limits.
-- No external MCP or public inbound endpoint is needed. The sandbox makes outbound model/research calls.
-- The UI is localhost-only, without production authentication or multi-tenant isolation.
-- Public-source research is not verified competitor sales analytics or a real-time trend connector. UGC-style material must not pretend to be real customer testimony.
-
-## Verify
-
-```bash
-npm test
-python3 test-cloud.py
-```
-
-The September 28, 2026 cloud retest scored 3.333333/5 in round 1: its design included a rendered mug instead of isolated artwork. MA revised the prompts and round 2 passed all eight required checks with a model score of 5/5. It stopped early, using three maximum rounds, a 4.5 target, and watermark disabled. Both rounds completed independent evaluation and audit without conflicts. Selection at the round limit and adjudication were not exercised. Both downloaded videos were independently probed: 720x1280, 5.041667 seconds, no audio stream. The exported research list was empty; market research is not demonstrated. Model acceptance is not publishing approval. See the guides for verification boundaries.
-
-Local regression coverage includes 26 Node.js tests and 29 Python tests. These tests use mocks rather than paid model calls.
-
-## Security and distribution
-
-Archive a completed cloud Campaign immediately, while its media URLs remain valid:
+Temporary signed media URLs expire. Archive a finished campaign while they are valid:
 
 ```bash
 node archive-campaign.mjs <CAMPAIGN_ID> <ARCHIVE_NAME>
 ```
 
-This downloads every evaluated round's images and video into `docs/assets/<ARCHIVE_NAME>/`, then writes a sanitized `result.json` with prompts, evaluations, and SHA-256 file checksums. It does not start model calls. Download errors stop the command instead of claiming a complete archive. Review the brief and evidence for customer-sensitive content before sharing. The original private Campaign JSON remains in `data/`.
+Set `STUDIO_NAME` and `WORKSPACE_NAME` in `.env` to show a customer's own name in the interface.
 
-Private credentials, raw run data, signed URLs, and historical internal test notes are excluded from Git. The reviewed demo media in `docs/assets/` is intentionally included for reproducibility. Use your own resources and dedicated test key. Never commit `.env`, `data/`, authentication caches, or complete Environment configurations. Campaign exports may contain private briefs and signed media URLs; redact them before sharing. This repository is a demo, not a production security or compliance solution.
+## Deploy
+
+1. Authenticate with `arkcli auth login`; check `arkcli auth status --format json`.
+2. Create a dedicated Cloud Environment. `deploy-environment.mjs` reads the key from its process environment, creates a private temporary config, withholds credential-bearing output and removes the temporary file. `IMAGE_MODEL`, `VIDEO_MODEL` and `EVAL_MODEL` are passed through when set.
+
+   ```bash
+   read -r -s -p 'BytePlus demo API key: ' ARK_API_KEY && export ARK_API_KEY
+   node deploy-environment.mjs
+   unset ARK_API_KEY
+   ```
+
+3. List the models your account can use with `arkcli agent model list --format json`, then package the Skill, upload it and create the Agent:
+
+   ```bash
+   node deploy-agent.mjs <MA_MODEL_ID>
+   ```
+
+   This script has been checked with `--dry-run` previews but not yet run against a live account. If it cannot read an ID from a response, it prints the response and stops; continue by hand as below.
+
+   To do it by hand: zip `skills/pod-creative-loop/` with its `SKILL.md`, `scripts/` and `references/`, upload it with `arkcli agent skill create --zip <ZIP> --display-title 'POD Creative Loop' --format json`, and create the Agent with `cloud-system.md` as system prompt, the returned Skill ID and version, and the default tools.
+4. Put the Agent and Environment IDs into `.env`. Enable paid execution only with authorization.
+
+Research and planning are demanding. Choose the most capable MA model available to the account for the Agent. Existing Sessions keep the Skill version they started with; start a new campaign after deploying an update.
+
+`config.env` is NOT a secret vault: configuration readers and code in the Agent environment can access its values. Use a scoped test key, restricted access and an approved secret design before production. Never put keys into a Skill ZIP, prompt, source code or screenshot.
+
+Default models: `seedream-4-5-251128` for images, `dreamina-seedance-2-5-260628` for video, `seed-2-0-lite-260428` for reviewers. Availability is account-specific.
+
+## Helper and recovery
+
+`skills/pod-creative-loop/scripts/` uses only Python's standard library.
+
+| Script | Commands |
+| --- | --- |
+| `creative.py` | `init --input plan.json`, `step`, `select --input selection.json`, `revise --input prompts.json`, `status`, `export [--part N] [--chunk SIZE]`, `retry-silent-video --variant ID` |
+| `research.py` | `calendar`, `storefront --store DOMAIN`, `validate --input research.json` |
+| `evaluation.py`, `media.py` | Acceptance contract and reviewer prompts; MP4 inspection |
+
+State persists at `/mnt/session/creative-loop/state.json`.
+
+- Generation requests are never blindly repeated. A refused request fails that design with the provider's code. A request with an unknown outcome is marked and not resubmitted, to avoid duplicate charges. Rate-limited requests are repeated because the provider refused them.
+- A video task that fails with a known transient error is replaced at most twice per round, reusing the images. Policy and unknown errors stop that design. A video rejected for its generated audio can be replaced by a silent one only with `retry-silent-video`, when the customer authorizes it.
+- Video polling reuses the task ID and stops after 30 minutes; it does not cancel the provider task.
+- Responses SSE requires an explicit `response.completed` event. Each screening, evaluation, audit or adjudication permits at most two attempts. A failed design ranking degrades to "ranking unavailable"; a failed review fails that design.
+- State is HMAC-signed to detect accidental direct edits. This is a consistency check, not a security boundary against code with access to the same key. The bridge also rejects runs in which the agent wrote to protected state or Skill files.
+- Large results travel in checksummed parts. The bridge accepts only output printed by `creative.py export`, reassembles and verifies it, rebuilds every review from the reviewers' own reports and refuses a result that disagrees. If the agent stops early, the bridge reminds it up to three times, then reports an error.
+- The interface is localhost-only, without production authentication or multi-tenant isolation.
+
+## Verify
+
+```bash
+npm test
+```
+
+This runs 43 Node.js tests and 78 Python tests. They use stand-ins rather than paid model calls, and include a walk through a whole campaign over the real HTTP interface and a run of the helper's command line against a local stand-in for the model API.
+
+**Not yet verified in the cloud.** This version changes the Skill, the helper and the bridge substantially. Every path is covered by local tests and by rehearsal mode, but no paid MA Cloud run of this version has been made. Treat the first live run as a test: watch the Session, and expect to adjust the Skill wording to the MA model you deploy.
+
+## The sample and rehearsal content
+
+- The 14 market sources are real pages read on 30 September 2026: Amazon in a browser, four competitor stores through their public catalogs, the rest as web pages or search results. The sample is set up for a Macorner demo, so Macorner is the customer's store and not a competitor.
+- The design of variant 1, its mockup and two of the videos come from an earlier real run of this demo. The other designs are drawn artwork, the other mockups are composites on that run's mug photo, and the other videos are slow camera moves over those mockups. Sound tracks are synthesized tones.
+- Reviewer comments, scores and rationales are written examples.
+
+`tools/sample/` holds the content and the scripts that produced the media. `npm run sample` rebuilds `public/sample/campaign.json` through the real helper and bridge.
+
+## Security and distribution
+
+Private credentials, raw run data and signed URLs are excluded from Git. Never commit `.env`, `data/`, authentication caches, or complete Environment configurations. Campaign exports may contain private briefs and signed media URLs; review them before sharing. Competitor names and listings in a research report are public information, but check them before showing a report to a third party. This repository is a demo, not a production security or compliance solution.
+
+## Layout
+
+```text
+server.mjs, cloud.mjs, core.mjs     local bridge and its validation
+public/                             interface; public/sample/ holds the sample campaign and media
+cloud-system.md                     system prompt of the Managed Agent
+skills/pod-creative-loop/           Skill: SKILL.md, scripts/, references/pod-playbook.md
+deploy-environment.mjs, deploy-agent.mjs, archive-campaign.mjs
+tools/rehearsal/                    stand-in for ArkCLI used by rehearsal mode
+tools/sample/                       sample content, scripted agent, media scripts
+test.mjs, test-server.mjs, test-cloud.py, test-e2e.py, test-fixtures.py
+```

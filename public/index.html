@@ -1,8 +1,71 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SZ Creative Studio</title><link rel="stylesheet" href="/style.css"><script src="/icons.js" defer></script><script src="/app.js" defer></script></head><body>
-<aside><a class="brand" href="/">sz<span>creative studio</span></a><div class="workspace">SZMARKETING <span>WORKSPACE</span></div><nav><button class="nav active" id="campaigns"><i data-lucide="layout-grid"></i>Campaigns</button><button class="nav" id="newSide"><i data-lucide="plus"></i>New campaign</button></nav><div class="aside-bottom"><span class="dot"></span> ModelArk Managed Agents<p id="connection">Checking connection</p><small>Private demo workspace</small></div></aside>
-<main><header><div><span class="crumb">Workspace / Campaigns</span><h1>Creative operations</h1></div><button class="primary" id="new"><i data-lucide="plus"></i>New campaign</button></header>
-<section class="overview"><div><span class="eyebrow">SZMARKETING / POD</span><h2>From a gift idea<br>to a campaign.</h2><p>Personalized products. Original creative.</p><div class="tags"><span>Apparel</span><span>Drinkware</span><span>Personalized gifts</span></div></div><img src="https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=1000&auto=format&fit=crop&q=85" alt="Reference ceramic mug photography"><small>Reference photography · not generated output</small></section>
-<div class="section-head"><h2>Campaign workspace</h2><span id="count">0 campaigns</span></div><div id="joblist"></div>
-<section id="workspace" hidden><div class="job-header"><div><span class="eyebrow" id="jobmeta"></span><h2 id="jobtitle"></h2></div><button class="icon" title="Export campaign JSON" id="export"><i data-lucide="download"></i></button></div><div id="pipeline"></div><div class="workarea"><div id="results"></div><aside class="inspector"><span class="eyebrow">CAMPAIGN BRIEF</span><p id="brieftext"></p><dl id="facts"></dl><div class="divider"></div><span class="eyebrow">EXECUTION</span><p id="session">No cloud session yet</p><span class="eyebrow">PUBLISHING</span><p>Human approval required</p><p class="muted">Print specifications and platform approval remain unverified until checked.</p></aside></div></section>
-<section id="empty"><i data-lucide="layers"></i><h3>Your next collection starts here</h3><p>No campaigns yet</p><button id="start" class="secondary">Create campaign</button></section><div id="notice" role="status"></div></main>
-<dialog id="dialog"><form id="form"><div class="dialog-head"><h2>New campaign</h2><button type="button" class="icon" id="close" title="Close"><i data-lucide="x"></i></button></div><label>Campaign name<input name="name" required maxlength="100" value="A little joy, personalized"></label><div class="row"><label>Product<select name="product"><option>Mug</option><option>T-shirt</option></select></label><label>Platform<select name="platform"><option>TikTok</option><option>Facebook</option></select></label></div><label>Audience<input name="audience" required value="US gift shoppers, ages 25–44"></label><label>Creative brief<textarea name="brief" rows="5" required>Original personalized gift for a close friend. Botanical line art with the name ALEX and the words LITTLE DAILY JOYS. Warm, thoughtful, modern. Preserve the exact print across the product mockup and video. No trademarks or unsupported claims.</textarea></label><p class="muted">Creating a brief is free. Live generation incurs model, MA runtime and search charges.</p><button class="primary" type="submit">Create campaign<i data-lucide="arrow-right"></i></button></form></dialog></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Creative Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script src="/icons.js" defer></script>
+<script src="/app.js" type="module"></script>
+</head>
+<body>
+<aside class="rail">
+  <a class="brand" href="#/" aria-label="Home"><span class="brand-mark"><i data-lucide="sparkles"></i></span><span class="brand-text"><b id="brandName">Creative Studio</b><small id="brandSpace">Workspace</small></span></a>
+  <button class="btn primary wide" data-action="compose"><i data-lucide="plus"></i>New campaign</button>
+  <nav>
+    <a class="nav" href="#/" id="navHome"><i data-lucide="layout-grid"></i>All campaigns</a>
+  </nav>
+  <div class="rail-label">Recent</div>
+  <div id="railList" class="rail-list"></div>
+  <div class="rail-foot">
+    <div id="connection" class="connection"><span class="dot"></span><span>Checking connection</span></div>
+    <small id="railMode">Local demo</small>
+  </div>
+</aside>
+
+<main id="main" tabindex="-1"></main>
+
+<dialog id="composer" aria-labelledby="composerTitle">
+  <form id="composerForm" method="dialog">
+    <header class="dialog-head">
+      <div><span class="eyebrow">New campaign</span><h2 id="composerTitle">What are we making?</h2></div>
+      <button type="button" class="icon-btn" data-action="close-composer" aria-label="Close"><i data-lucide="x"></i></button>
+    </header>
+    <div class="dialog-body">
+      <div class="notice" id="composerNote" hidden><i data-lucide="info"></i><div>This demo uses a prepared brief and settings. Give the campaign a name and press Create.</div></div>
+      <label class="field"><span>Campaign name</span><input name="name" required maxlength="100" placeholder="e.g. Dog mom tumbler · Mother's Day"></label>
+      <fieldset class="field"><legend>Product</legend><div id="productChips" class="chips"></div></fieldset>
+      <fieldset class="field"><legend>Where will the video run?</legend><div id="platformChips" class="chips"></div></fieldset>
+      <label class="field"><span>Creative brief</span>
+        <textarea name="brief" rows="6" required maxlength="4000" placeholder="Who is it for, what is the occasion, what must the print say, and what should it feel like? Mention the market and the buyer — the agent reads them from here."></textarea>
+        <small class="hint">Need a start? <span id="examples" class="examples"></span></small>
+      </label>
+      <label class="field"><span>Your store <em>optional</em></span><input name="store" maxlength="200" placeholder="yourstore.com"><small class="hint">The agent studies your store for style and never counts it as a competitor.</small></label>
+      <label class="field"><span>Audience note <em>optional</em></span><input name="audience" maxlength="400" placeholder="Anything else about the buyer"></label>
+      <details class="advanced">
+        <summary><i data-lucide="sliders-horizontal"></i>Fine-tune the run</summary>
+        <div class="grid two">
+          <label class="field"><span>Design directions to explore</span><input name="design_count" type="number" min="3" max="6" step="1" value="5" required></label>
+          <label class="field"><span>Designs you can take forward</span><input name="select_max" type="number" min="1" max="3" step="1" value="3" required></label>
+          <label class="field"><span>Revision rounds per design</span><input name="max_rounds" type="number" min="1" max="5" step="1" value="2" required></label>
+          <label class="field"><span>Quality target, out of 5</span><input name="target_score" type="number" min="0" max="5" step="0.1" value="4.5" required></label>
+          <label class="field"><span>Report language</span><select name="language" id="languageSelect"></select></label>
+        </div>
+        <label class="switch"><input name="generate_audio" type="checkbox" checked><span class="track"></span><span><b>Video with sound</b><small>Videos are generated with an audio track.</small></span></label>
+        <label class="switch"><input name="watermark" type="checkbox" checked><span class="track"></span><span><b>AI-generated watermark</b><small>Adds the generator's visible mark to images and video.</small></span></label>
+      </details>
+    </div>
+    <footer class="dialog-foot">
+      <small id="composerCost">Saving is free. Generation starts only when you press Start, and uses paid model calls.</small>
+      <button class="btn primary" type="submit">Create campaign<i data-lucide="arrow-right"></i></button>
+    </footer>
+  </form>
+</dialog>
+
+<dialog id="viewer" aria-label="Preview"><button class="icon-btn viewer-close" data-action="close-viewer" aria-label="Close"><i data-lucide="x"></i></button><figure id="viewerBody"></figure></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
