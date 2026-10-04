@@ -1,5 +1,9 @@
 # Documentation Asset Inventory
 
+## Walkthrough
+
+`walkthrough/walkthrough.mp4` is a screen recording of the app, compressed to 1280x696 for the repository. `walkthrough/poster.jpg` is one frame of it.
+
 ## September 28 Cloud Run
 
 These files come from a real cloud run of the earlier, single-design version of this demo. Round 1 scored 3.333333/5 and failed the required checks. After prompt revision, round 2 scored 5/5 and passed all eight required checks.

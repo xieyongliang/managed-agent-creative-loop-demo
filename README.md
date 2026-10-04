@@ -2,6 +2,14 @@
 
 A demo for print-on-demand gift businesses. A customer writes one brief; a Managed Agent (MA) in the cloud studies the market, designs five directions in different styles, and turns the customer's favourites into product mockups and short videos with sound. Independent reviewers score every result against the brief, and the agent revises what did not pass.
 
+## Walkthrough
+
+[![Walkthrough of POD Creative Studio: brief, research, design choice, production and review](docs/assets/walkthrough/poster.jpg)](docs/assets/walkthrough/walkthrough.mp4)
+
+A 7-minute tour of one campaign from brief to review. Click the image to open the video.
+
+## How it works
+
 The interface is in English. Everything the agent writes (research, rationales, review findings) is delivered in the campaign's report language, Vietnamese by default.
 
 ```text

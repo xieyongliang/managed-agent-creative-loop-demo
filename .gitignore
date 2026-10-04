@@ -14,3 +14,6 @@ campaign-export*.json
 CLOUD_TESTING.md
 TESTING.md
 LEGACY_LOCAL.md
+
+# Raw screen recordings; the compressed walkthrough lives in docs/assets/walkthrough/.
+*.mov
