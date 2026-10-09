@@ -56,7 +56,7 @@
 需要的主要文件：
 
 ```text
-szmarketing-ma-demo/
+managed-agent-creative-loop-demo/
   package.json
   package-lock.json
   .env.example

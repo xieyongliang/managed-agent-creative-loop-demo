@@ -56,7 +56,7 @@ No external MCP server or public inbound endpoint on your computer is required. 
 Main files:
 
 ```text
-szmarketing-ma-demo/
+managed-agent-creative-loop-demo/
   package.json
   package-lock.json
   .env.example
