@@ -106,7 +106,7 @@ export async function runCloud(job,{cli,save}){
   if(!job.session){
    if(job.cloud.createStarted)throw Error('Session creation outcome uncertain; inspect account before retry');
    job.cloud.createStarted=true;await save();
-   const s=await cli(['agent','session','create','--agent-id',process.env.CLOUD_AGENT_ID,'--environment-id',process.env.CLOUD_ENVIRONMENT_ID,'--title','sz-cloud-'+job.id]);
+   const s=await cli(['agent','session','create','--agent-id',process.env.CLOUD_AGENT_ID,'--environment-id',process.env.CLOUD_ENVIRONMENT_ID,'--title','creative-cloud-'+job.id]);
    job.session=s.Result?.Id||s.id;if(!job.session)throw Error('No Session ID');await save();
   }
   if(!job.cloud.sent){

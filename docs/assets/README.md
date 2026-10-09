@@ -11,8 +11,6 @@ The run used Agent / Skill v9. Round 1 scored 3.333333/5 and failed the required
 | `retest-20260928/round-1-video.mp4`, `round-2-video.mp4` | Original Seedance output |
 | `retest-20260928/round-2-video-poster.jpg` | First frame extracted from the selected video; not a separately generated image |
 | `retest-20260928/result.json` | Sanitized run export with prompts, criteria, reports, file sizes, and SHA-256 checksums |
-| `ui-workspace.png`, `ui-review.png`, `ui-design.png`, `ui-video.png` | Actual frontend screenshots of the September 28 run |
-| `ui-campaign-setup.png` | Actual form filled with reproduction settings, not submitted for the screenshot |
 | `ui-reference-mug.jpg` | Decorative Unsplash photograph referenced in `public/index.html`; not used as generation input |
 
 Both videos were independently probed: 720x1280, 5.041667 seconds, no audio stream. Scores are model judgments, not printing, rights, or publication approval. The run contains no verified research references (`research=[]`).

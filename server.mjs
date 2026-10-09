@@ -22,7 +22,7 @@ async function cli(args,skill='arkcli-agent',timeout=90000){
 function idOf(x){return x.Result?.Id||x.result?.id||x.id;}
 const pause=ms=>new Promise(r=>setTimeout(r,ms));
 async function ma(job,prompt,step){
-  if(!job.session){const s=await cli(['agent','session','create','--agent-id',process.env.MA_AGENT_ID,'--environment-id',process.env.MA_ENVIRONMENT_ID,'--title',`sz-${job.id}`]);job.session=idOf(s);if(!job.session)throw Error('No session ID returned');await save();}
+  if(!job.session){const s=await cli(['agent','session','create','--agent-id',process.env.MA_AGENT_ID,'--environment-id',process.env.MA_ENVIRONMENT_ID,'--title',`creative-${job.id}`]);job.session=idOf(s);if(!job.session)throw Error('No session ID returned');await save();}
   if(!step.sent){
     if(step.sendStarted)throw Error('Previous send has uncertain outcome. Inspect '+job.session+' before sending again.');
     const history=await cli(['agent','session','events','list',job.session,'--order','desc','--limit','1']);
@@ -115,4 +115,4 @@ http.createServer(async(req,res)=>{const respond=(status,obj)=>{res.writeHead(st
   void run(j,body.phase);return respond(202,j);
  }
  const paths={'/':'public/index.html','/app.js':'public/app.js','/style.css':'public/style.css','/icons.js':'node_modules/lucide/dist/umd/lucide.js'};const path=paths[u.pathname];if(!path)return respond(404,{error:'Not found'});res.writeHead(200,{'Content-Type':mime[path.slice(path.lastIndexOf('.'))]||'text/javascript','X-Content-Type-Options':'nosniff'});res.end(await readFile(path));
- }catch(e){respond(400,{error:safeError(e)});}}).listen(port,'127.0.0.1',()=>console.log(`SZ Creative Studio http://127.0.0.1:${port}`));
+ }catch(e){respond(400,{error:safeError(e)});}}).listen(port,'127.0.0.1',()=>console.log(`Creative Studio http://127.0.0.1:${port}`));

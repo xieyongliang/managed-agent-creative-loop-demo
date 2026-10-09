@@ -2,9 +2,9 @@
 
 [English](CUSTOMER_DEMO_EN.md)
 
-[前端截图、素材来源与文件状态](#10-前端-ui-与素材来源)
+[前端界面、素材来源与文件状态](#10-前端-ui-与素材来源)
 
-本文介绍 SZ Creative Studio 的部署与复现方法：通过 ArkCLI 部署 MA、Cloud Environment 和 Skill，再通过网页提交需求，由 MA 在云端生成图片与视频、独立评测、审计，并按需改进。
+本文介绍 Creative Studio 的部署与复现方法：通过 ArkCLI 部署 MA、Cloud Environment 和 Skill，再通过网页提交需求，由 MA 在云端生成图片与视频、独立评测、审计，并按需改进。
 
 **实测基线：2026-09-28，Agent / Skill v9。** 本次真实云端运行从第 1 轮 **3.33/5** 改进到第 2 轮 **5/5**，所有必需项通过后提前停止。配置为最多 3 轮、目标 4.5/5、水印关闭；两轮共 4 张图片、2 段视频已完整归档。不保证复现相同素材或分数。
 
@@ -109,7 +109,7 @@ mkdir -p data
 cd skills
 zip -r ../data/pod-creative-loop.zip pod-creative-loop -x '*/__pycache__/*'
 cd ..
-arkcli agent skill create --zip data/pod-creative-loop.zip --display-title 'SZ Autonomous POD Loop' --format json
+arkcli agent skill create --zip data/pod-creative-loop.zip --display-title 'Autonomous POD Loop' --format json
 ```
 
 记录返回的 Skill ID 和版本。ZIP 必须包含顶层 `pod-creative-loop/` 目录，以及 `SKILL.md`、`creative.py`、`evaluation.py`，不要加入任何凭据。
@@ -146,7 +146,7 @@ arkcli agent model list --format json
 
 ```bash
 arkcli agent agent create \
-  --name 'sz-pod-creative-demo' \
+  --name 'creative-pod-creative-demo' \
   --model '<AVAILABLE_MA_MODEL_ID>' \
   --system @cloud-system.md \
   --skill '{"SkillId":"<SKILL_ID>","Version":"<SKILL_VERSION>"}' \
@@ -369,17 +369,12 @@ node archive-campaign.mjs <CAMPAIGN_ID> <ARCHIVE_NAME>
 
 Workspace 已整理为只显示本次最新 Campaign。旧 Campaign 在本地归档，未删除；同一 Campaign 的第 1 轮仍可在 Previous versions 中查看。
 
-![最新 Workspace：第 2 轮达标](docs/assets/ui-workspace.png)
 
-![独立评测与审计结果](docs/assets/ui-review.png)
 
-![生成图案在 UI 中的展示](docs/assets/ui-design.png)
 
-![生成视频在 UI 中的展示](docs/assets/ui-video.png)
 
-配置表单示例（只填写，未为截图提交额外生成任务）：
+历史截图包含客户品牌，已移除。可在本地运行应用查看中性命名的 Creative Studio 界面。归档素材和评估报告保持不变；新 clone 不包含私有 Campaign 状态。
 
-![Campaign 配置：3 轮、4.5 分、水印关闭](docs/assets/ui-campaign-setup.png)
 
 ### 引用素材说明
 

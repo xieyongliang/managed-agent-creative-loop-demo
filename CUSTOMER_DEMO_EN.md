@@ -2,9 +2,9 @@
 
 [Chinese version](CUSTOMER_DEMO_ZH.md)
 
-[UI screenshots, asset sources, and file availability](#10-frontend-ui-and-asset-sources)
+[Frontend UI, asset sources, and file availability](#10-frontend-ui-and-asset-sources)
 
-This guide explains how to deploy and reproduce SZ Creative Studio. ArkCLI deploys the Managed Agent (MA), Cloud Environment, and Skill. Users submit a brief through the web UI; MA generates images and video, evaluates the actual assets, audits the findings, and revises the creative when needed.
+This guide explains how to deploy and reproduce Creative Studio. ArkCLI deploys the Managed Agent (MA), Cloud Environment, and Skill. Users submit a brief through the web UI; MA generates images and video, evaluates the actual assets, audits the findings, and revises the creative when needed.
 
 **Verified baseline: September 28, 2026, Agent / Skill v9.** The real cloud run improved from **3.33/5 in round 1 to 5/5 in round 2**, then stopped after all required checks passed. Settings were three maximum rounds, a 4.5/5 target, and watermark disabled. Four images and two videos are archived. Generated assets and scores may differ on another run.
 
@@ -109,7 +109,7 @@ mkdir -p data
 cd skills
 zip -r ../data/pod-creative-loop.zip pod-creative-loop -x '*/__pycache__/*'
 cd ..
-arkcli agent skill create --zip data/pod-creative-loop.zip --display-title 'SZ Autonomous POD Loop' --format json
+arkcli agent skill create --zip data/pod-creative-loop.zip --display-title 'Autonomous POD Loop' --format json
 ```
 
 Record the returned Skill ID and version. The ZIP must contain the top-level `pod-creative-loop/` directory, including `SKILL.md`, `creative.py`, and `evaluation.py`. Never include credentials.
@@ -146,7 +146,7 @@ Create the Agent using your uploaded Skill ID and version:
 
 ```bash
 arkcli agent agent create \
-  --name 'sz-pod-creative-demo' \
+  --name 'creative-pod-creative-demo' \
   --model '<AVAILABLE_MA_MODEL_ID>' \
   --system @cloud-system.md \
   --skill '{"SkillId":"<SKILL_ID>","Version":"<SKILL_VERSION>"}' \
@@ -185,7 +185,7 @@ python3 test-cloud.py
 npm start
 ```
 
-Open [SZ Creative Studio](http://127.0.0.1:8790/). If the port is occupied, change `PORT`, restart, and use the new port. This loopback-only demo service is not an authenticated, multi-tenant production application.
+Open [Creative Studio](http://127.0.0.1:8790/). If the port is occupied, change `PORT`, restart, and use the new port. This loopback-only demo service is not an authenticated, multi-tenant production application.
 
 ## 6. Run a Complete Test
 
@@ -371,17 +371,12 @@ The output is `docs/assets/<ARCHIVE_NAME>/`. The command downloads and exports o
 
 The Workspace now shows only the latest Campaign. Older Campaigns are archived locally, not deleted. Round 1 remains available under Previous versions within the latest Campaign.
 
-![Latest Workspace showing round 2 acceptance](docs/assets/ui-workspace.png)
 
-![Independent evaluation and audit](docs/assets/ui-review.png)
 
-![Generated design displayed in the UI](docs/assets/ui-design.png)
 
-![Generated video displayed in the UI](docs/assets/ui-video.png)
 
-Configuration form example, filled without submitting an additional generation task for the screenshot:
+Historical customer-branded screenshots have been removed. Run the app locally to view the neutral Creative Studio UI. Archived generated media and evaluation reports are unchanged. A fresh clone does not include private Campaign state.
 
-![Campaign settings: three rounds, target 4.5, watermark disabled](docs/assets/ui-campaign-setup.png)
 
 ### Reference Material
 

@@ -1,10 +1,9 @@
-# SZ Creative Studio: Autonomous MA Cloud
+# Creative Studio: Autonomous MA Cloud
 
 Customer setup and reproduction: [English](CUSTOMER_DEMO_EN.md) | [中文](CUSTOMER_DEMO_ZH.md).
 
-![Latest cloud retest workspace](docs/assets/ui-workspace.png)
 
-See the guides for UI screenshots and the [asset inventory](docs/assets/README.md). The September 28 cloud retest archived all four images and two videos, plus a [sanitized evaluation report](docs/assets/retest-20260928/result.json). Click the preview to open the selected round's original video:
+See the guides and the [asset inventory](docs/assets/README.md). Historical customer-branded UI screenshots have been removed. The September 28 cloud retest archived all four images and two videos, plus a [sanitized evaluation report](docs/assets/retest-20260928/result.json). Click the preview to open the selected round's original video:
 
 [![Selected video](docs/assets/retest-20260928/round-2-video-poster.jpg)](docs/assets/retest-20260928/round-2-video.mp4)
 
@@ -53,7 +52,7 @@ Existing campaigns without `mode: ma_cloud` are retained and labeled Legacy loca
 ## Deploy
 
 1. Authenticate with `arkcli auth login`; check `arkcli auth status --format json`.
-2. Package `skills/pod-creative-loop/` with its SKILL.md and scripts. Upload using `arkcli agent skill create --zip <ZIP> --display-title 'SZ Autonomous POD Loop' --format json`.
+2. Package `skills/pod-creative-loop/` with its SKILL.md and scripts. Upload using `arkcli agent skill create --zip <ZIP> --display-title 'Autonomous POD Loop' --format json`.
 3. Create a dedicated Cloud Environment with `Type: cloud`, unrestricted networking and user-approved `Env.ARK_API_KEY`. The included `deploy-environment.mjs` reads the key from its process environment, creates a private temporary config, withholds credential-bearing output and removes the temporary file. Use an approved secret mechanism, not shared command transcripts. Change its demo resource name for another deployment.
 4. Create an Agent using `cloud-system.md`, an available MA model and the returned explicit Skill ID/version. Read it back to verify tools and Skills. This account's test used seed-2-0-lite-260428; availability is account-specific.
 5. Set the new Agent/Environment IDs in `.env`. Enable paid execution only with authorization.
